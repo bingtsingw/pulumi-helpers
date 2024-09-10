@@ -1,0 +1,47 @@
+{
+  "name": "pulumi-helpers",
+  "scripts": {
+    "build": "turbo run build",
+    "changeset-add": "changeset add",
+    "changeset-publish": "npm run check-publish && changeset publish",
+    "changeset-version": "changeset version",
+    "check-mono": "sherif",
+    "check-publish": "npm run build && npm run format && npm run lint:js && npm run check-type && npm run test",
+    "check-type": "turbo run check-type",
+    "clean": "del **/dist **/.build **/.swc **/.malagu **/.turbo **/node_modules !node_modules **/.eslintcache",
+    "commit": "cz",
+    "dev": "turbo run dev",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write",
+    "lint:js": "turbo run lint:js",
+    "lint:js:fix": "turbo run lint:js:fix",
+    "prepare": "simple-git-hooks",
+    "test": "turbo run test"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged",
+    "commit-msg": "npx commitlint --edit $1"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,html,css,md,json}": "prettier --check",
+    "**/*.{js,jsx,ts,tsx}": "eslint"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "prettier": "@xstools-dev/prettier-config/base",
+  "devDependencies": {
+    "@types/bun": "^1.1.9",
+    "@types/node": "^22.5.4",
+    "@xstools-dev/mix": "^0.7.1",
+    "typescript": "^5.5.4"
+  },
+  "packageManager": "pnpm@9.10.0"
+}
