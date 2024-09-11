@@ -1,5 +1,6 @@
 {
   "name": "pulumi-helpers",
+  "private": true,
   "scripts": {
     "build": "turbo run build",
     "changeset-add": "changeset add",
