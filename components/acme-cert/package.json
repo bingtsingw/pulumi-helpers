@@ -1,0 +1,48 @@
+{
+  "name": "@pulumi-helpers/component-acme-cert",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "check-type": "tsc --noEmit",
+    "dev": "tsup --watch",
+    "lint:js": "eslint . --cache --ext .js,.jsx,.ts,.tsx",
+    "lint:js:fix": "eslint . --cache --ext .js,.jsx,.ts,.tsx --fix",
+    "test": "bun test"
+  },
+  "eslintConfig": {
+    "extends": "@xstools-dev/eslint-config/base"
+  },
+  "dependencies": {
+    "@pulumi/tls": "^5.0.5",
+    "@pulumiverse/acme": "^0.3.1"
+  },
+  "devDependencies": {
+    "@pulumi/pulumi": "^3.131.0"
+  },
+  "peerDependencies": {
+    "@pulumi/pulumi": "*"
+  },
+  "publishConfig": {
+    "registry": "https://bingtsingw-npm.pkg.coding.net/artifacts/xstools"
+  },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "format": [
+      "esm"
+    ],
+    "dts": true,
+    "clean": true,
+    "treeshake": true,
+    "minify": true
+  }
+}
