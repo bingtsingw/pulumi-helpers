@@ -1,6 +1,12 @@
 {
   "name": "pulumi-helpers",
   "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "bingtsingw",
+    "email": "bingtsingw@gmail.com",
+    "url": "https://github.com/bingtsingw"
+  },
   "scripts": {
     "build": "turbo run build",
     "changeset-add": "changeset add",
