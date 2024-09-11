@@ -9,6 +9,7 @@ interface AcmeCertComponentProps {
     provider: string;
     config?: Record<string, string | pulumi.Output<string>>;
   };
+  minDaysRemaining?: number;
 }
 
 export class AcmeCertComponent extends pulumi.ComponentResource {
@@ -23,6 +24,8 @@ export class AcmeCertComponent extends pulumi.ComponentResource {
     opts?: pulumi.ComponentResourceOptions,
   ) {
     super('pkg:index:AcmeCertComponent', name, {}, opts);
+
+    const { minDaysRemaining = 30 } = props;
 
     const privateKey = new PrivateKey(name, { algorithm: 'RSA', rsaBits: 4096 }, { parent: this });
 
@@ -43,7 +46,7 @@ export class AcmeCertComponent extends pulumi.ComponentResource {
         subjectAlternativeNames: props.dnsNames,
         dnsChallenges: [props.dnsChallenge],
 
-        minDaysRemaining: 30,
+        minDaysRemaining,
         revokeCertificateOnDestroy: false,
       },
       { parent: this, replaceOnChanges: ['minDaysRemaining'] },
