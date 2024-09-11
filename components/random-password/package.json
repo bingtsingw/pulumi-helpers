@@ -17,11 +17,8 @@
     "email": "bingtsingw@gmail.com",
     "url": "https://github.com/bingtsingw"
   },
-  "type": "module",
-  "exports": {
-    "types": "./dist/index.d.ts",
-    "default": "./dist/index.js"
-  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -54,7 +51,7 @@
       "src/index.ts"
     ],
     "format": [
-      "esm"
+      "cjs"
     ],
     "dts": true,
     "clean": true,
