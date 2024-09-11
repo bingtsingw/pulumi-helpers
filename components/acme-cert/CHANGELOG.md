@@ -1,5 +1,11 @@
 # @pulumi-helpers/component-acme-cert
 
+## 0.3.0
+
+### Minor Changes
+
+- [`1ed5cae`](https://github.com/bingtsingw/pulumi-helpers/commit/1ed5caee5973a7d07e62df73d69e11c9f1c9b39e) Thanks [@bingtsingw](https://github.com/bingtsingw)! - export AcmeProvider
+
 ## 0.2.0
 
 ### Minor Changes
