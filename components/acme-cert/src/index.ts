@@ -1,6 +1,6 @@
 import * as pulumi from '@pulumi/pulumi';
 import { PrivateKey } from '@pulumi/tls';
-import { Certificate, Registration } from '@pulumiverse/acme';
+import { Certificate, Provider, Registration } from '@pulumiverse/acme';
 
 interface AcmeCertComponentProps {
   email: string;
@@ -60,3 +60,5 @@ export class AcmeCertComponent extends pulumi.ComponentResource {
     this.registerOutputs();
   }
 }
+
+export const AcmeProvider = Provider;
