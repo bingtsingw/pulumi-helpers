@@ -4,8 +4,7 @@
   "keywords": [
     "pulumi",
     "pulumi-component",
-    "acme",
-    "cert"
+    "acme-cert"
   ],
   "repository": {
     "type": "git",

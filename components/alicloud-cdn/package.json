@@ -1,10 +1,10 @@
 {
-  "name": "@pulumi-helpers/component-random-password",
-  "version": "0.2.0",
+  "name": "@pulumi-helpers/component-alicloud-cdn",
+  "version": "0.0.0",
   "keywords": [
     "pulumi",
     "pulumi-component",
-    "random-password"
+    "alicloud-cdn"
   ],
   "repository": {
     "type": "git",
@@ -30,10 +30,13 @@
     "test": "bun test"
   },
   "eslintConfig": {
-    "extends": "@xstools-dev/eslint-config/base"
+    "extends": "@xstools-dev/eslint-config/base",
+    "rules": {
+      "no-new": "off"
+    }
   },
   "dependencies": {
-    "@pulumi/random": "^4.16.4"
+    "@pulumi/alicloud": "^3.62.0"
   },
   "devDependencies": {
     "@pulumi/pulumi": "^3.131.0"

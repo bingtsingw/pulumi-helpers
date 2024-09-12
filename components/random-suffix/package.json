@@ -4,8 +4,7 @@
   "keywords": [
     "pulumi",
     "pulumi-component",
-    "random",
-    "password"
+    "random-suffix"
   ],
   "repository": {
     "type": "git",

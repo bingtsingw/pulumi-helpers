@@ -34,6 +34,16 @@ importers:
         specifier: ^3.131.0
         version: 3.131.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.5.4)(typescript@5.6.2))(typescript@5.6.2)
 
+  components/alicloud-cdn:
+    dependencies:
+      '@pulumi/alicloud':
+        specifier: ^3.62.0
+        version: 3.62.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.5.4)(typescript@5.6.2))(typescript@5.6.2)
+    devDependencies:
+      '@pulumi/pulumi':
+        specifier: ^3.131.0
+        version: 3.131.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.5.4)(typescript@5.6.2))(typescript@5.6.2)
+
   components/random-password:
     dependencies:
       '@pulumi/random':
@@ -1707,6 +1717,9 @@ packages:
 
   '@protobufjs/utf8@1.1.0':
     resolution: {integrity: sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==}
+
+  '@pulumi/alicloud@3.62.0':
+    resolution: {integrity: sha512-HK7OgnhKADT1LQY9l3wJpAVrJUg2Xxv3PV443xRUHJ+5ljI0kTQ3NZXgxS/If6FNQe+uRK+FouzvMLmRqcj+Hg==}
 
   '@pulumi/pulumi@3.131.0':
     resolution: {integrity: sha512-QNtQeav3dkU0mRdMe2TVvkBmIGkBevVvbD7/bt0fJlGoX/onzv5tysqi1GWCkXsq0FKtBtGYNpVD6wH0cqMN6g==}
@@ -10073,6 +10086,15 @@ snapshots:
   '@protobufjs/pool@1.1.0': {}
 
   '@protobufjs/utf8@1.1.0': {}
+
+  '@pulumi/alicloud@3.62.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.5.4)(typescript@5.6.2))(typescript@5.6.2)':
+    dependencies:
+      '@pulumi/pulumi': 3.131.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.5.4)(typescript@5.6.2))(typescript@5.6.2)
+    transitivePeerDependencies:
+      - bluebird
+      - supports-color
+      - ts-node
+      - typescript
 
   '@pulumi/pulumi@3.131.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.5.4)(typescript@5.6.2))(typescript@5.6.2)':
     dependencies:
