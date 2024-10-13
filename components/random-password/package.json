@@ -33,7 +33,7 @@
     "extends": "@xstools-dev/eslint-config/base"
   },
   "dependencies": {
-    "@pulumi/random": "^4.16.4"
+    "@pulumi/random": "^4.16.6"
   },
   "devDependencies": {
     "@pulumi/pulumi": "^3.131.0"
