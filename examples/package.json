@@ -1,0 +1,20 @@
+{
+  "name": "examples",
+  "scripts": {
+    "check-type": "tsc --noEmit",
+    "lint:js": "eslint . --cache --ext .js,.jsx,.ts,.tsx",
+    "lint:js:fix": "eslint . --cache --ext .js,.jsx,.ts,.tsx --fix"
+  },
+  "eslintConfig": {
+    "extends": "@xstools-dev/eslint-config/base",
+    "rules": {
+      "no-new": "off"
+    }
+  },
+  "dependencies": {
+    "@pulumi/alicloud": "^3.69.0"
+  },
+  "devDependencies": {
+    "@pulumi/pulumi": "^3.143.0"
+  }
+}

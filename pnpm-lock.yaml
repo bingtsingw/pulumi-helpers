@@ -64,6 +64,16 @@ importers:
         specifier: ^3.143.0
         version: 3.143.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
 
+  examples:
+    dependencies:
+      '@pulumi/alicloud':
+        specifier: ^3.69.0
+        version: 3.69.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
+    devDependencies:
+      '@pulumi/pulumi':
+        specifier: ^3.143.0
+        version: 3.143.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
+
 packages:
 
   '@ampproject/remapping@2.3.0':
