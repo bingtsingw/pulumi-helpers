@@ -6,6 +6,9 @@ interface Props {
   import?: string;
 }
 
+/**
+ * 生成随机后缀(模拟pulumi生成项目名)
+ */
 export class RandomSuffixComponent extends pulumi.ComponentResource {
   public result?: pulumi.Output<string>;
 

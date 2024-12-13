@@ -12,6 +12,9 @@ interface AcmeCertComponentProps {
   minDaysRemaining?: number;
 }
 
+/**
+ * 使用acme来获取let's encrypt证书
+ */
 export class AcmeCertComponent extends pulumi.ComponentResource {
   public commonName: pulumi.Output<string>;
   public issuerPem: pulumi.Output<string>;

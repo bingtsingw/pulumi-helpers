@@ -10,6 +10,9 @@ interface AlicloudCdnProps {
   cert?: { pub: string; pri: string };
 }
 
+/**
+ * 创建cdn, 并且配置dns, https.
+ */
 export class AlicloudCdnComponent extends pulumi.ComponentResource {
   private cdnName: string;
   private dnsName: string;

@@ -33,11 +33,11 @@
     "extends": "@xstools-dev/eslint-config/base"
   },
   "dependencies": {
-    "@pulumi/tls": "^5.0.5",
-    "@pulumiverse/acme": "^0.3.1"
+    "@pulumi/tls": "^5.0.9",
+    "@pulumiverse/acme": "^0.6.1"
   },
   "devDependencies": {
-    "@pulumi/pulumi": "^3.131.0"
+    "@pulumi/pulumi": "^3.143.0"
   },
   "peerDependencies": {
     "@pulumi/pulumi": "*"

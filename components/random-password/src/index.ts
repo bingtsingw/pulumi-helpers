@@ -6,6 +6,9 @@ interface RandomPasswordComponentProps {
   import?: string;
 }
 
+/**
+ * 生成随机密码
+ */
 export class RandomPasswordComponent extends pulumi.ComponentResource {
   public result?: pulumi.Output<string>;
 
