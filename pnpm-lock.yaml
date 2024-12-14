@@ -44,6 +44,25 @@ importers:
         specifier: ^3.143.0
         version: 3.143.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
 
+  components/alicloud-fc3:
+    dependencies:
+      '@pulumi-helpers/component-alicloud-log':
+        specifier: workspace:^
+        version: link:../alicloud-log
+      '@pulumi-helpers/component-alicloud-ram-user':
+        specifier: workspace:^
+        version: link:../alicloud-ram-user
+      '@pulumi-helpers/component-random-suffix':
+        specifier: workspace:^
+        version: link:../random-suffix
+      '@pulumi/alicloud':
+        specifier: ^3.69.0
+        version: 3.69.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
+    devDependencies:
+      '@pulumi/pulumi':
+        specifier: ^3.143.0
+        version: 3.143.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
+
   components/alicloud-log:
     dependencies:
       '@pulumi-helpers/component-random-suffix':
@@ -95,6 +114,9 @@ importers:
       '@pulumi-helpers/component-alicloud-cdn':
         specifier: workspace:^
         version: link:../components/alicloud-cdn
+      '@pulumi-helpers/component-alicloud-fc3':
+        specifier: workspace:^
+        version: link:../components/alicloud-fc3
       '@pulumi-helpers/component-alicloud-log':
         specifier: workspace:^
         version: link:../components/alicloud-log

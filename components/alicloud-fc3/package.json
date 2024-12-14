@@ -1,0 +1,66 @@
+{
+  "name": "@pulumi-helpers/component-alicloud-fc3",
+  "version": "0.0.0",
+  "keywords": [
+    "pulumi",
+    "pulumi-component",
+    "alicloud-fc3"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bingtsingw/pulumi-helpers"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "bingtsingw",
+    "email": "bingtsingw@gmail.com",
+    "url": "https://github.com/bingtsingw"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "check-type": "tsc --noEmit",
+    "dev": "tsup --watch",
+    "lint:js": "eslint . --cache --ext .js,.jsx,.ts,.tsx",
+    "lint:js:fix": "eslint . --cache --ext .js,.jsx,.ts,.tsx --fix",
+    "test": "bun test"
+  },
+  "eslintConfig": {
+    "extends": "@xstools-dev/eslint-config/base",
+    "rules": {
+      "no-new": "off"
+    }
+  },
+  "dependencies": {
+    "@pulumi-helpers/component-alicloud-log": "workspace:^",
+    "@pulumi-helpers/component-alicloud-ram-user": "workspace:^",
+    "@pulumi-helpers/component-random-suffix": "workspace:^",
+    "@pulumi/alicloud": "^3.69.0"
+  },
+  "devDependencies": {
+    "@pulumi/pulumi": "^3.143.0"
+  },
+  "peerDependencies": {
+    "@pulumi/pulumi": "*"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "format": [
+      "cjs"
+    ],
+    "dts": true,
+    "clean": true,
+    "treeshake": true,
+    "minify": true
+  }
+}

@@ -1,3 +1,4 @@
+export * from './src/alicloud-fc3';
 export * from './src/alicloud-log';
 export * from './src/alicloud-ram-user';
 export * from './src/random-password';
