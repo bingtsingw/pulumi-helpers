@@ -14,6 +14,7 @@
   "dependencies": {
     "@pulumi-helpers/component-alicloud-cdn": "workspace:^",
     "@pulumi-helpers/component-alicloud-log": "workspace:^",
+    "@pulumi-helpers/component-alicloud-ram-user": "workspace:^",
     "@pulumi-helpers/component-random-password": "workspace:^",
     "@pulumi-helpers/component-random-suffix": "workspace:^",
     "@pulumi/alicloud": "^3.69.0",
