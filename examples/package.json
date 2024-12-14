@@ -12,7 +12,10 @@
     }
   },
   "dependencies": {
+    "@pulumi-helpers/component-alicloud-cdn": "workspace:^",
     "@pulumi-helpers/component-alicloud-log": "workspace:^",
+    "@pulumi-helpers/component-random-password": "workspace:^",
+    "@pulumi-helpers/component-random-suffix": "workspace:^",
     "@pulumi/alicloud": "^3.69.0",
     "@pulumi/pulumi": "^3.143.0"
   }

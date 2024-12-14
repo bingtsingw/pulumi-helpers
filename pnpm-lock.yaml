@@ -79,9 +79,18 @@ importers:
 
   examples:
     dependencies:
+      '@pulumi-helpers/component-alicloud-cdn':
+        specifier: workspace:^
+        version: link:../components/alicloud-cdn
       '@pulumi-helpers/component-alicloud-log':
         specifier: workspace:^
         version: link:../components/alicloud-log
+      '@pulumi-helpers/component-random-password':
+        specifier: workspace:^
+        version: link:../components/random-password
+      '@pulumi-helpers/component-random-suffix':
+        specifier: workspace:^
+        version: link:../components/random-suffix
       '@pulumi/alicloud':
         specifier: ^3.69.0
         version: 3.69.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
