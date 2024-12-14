@@ -33,7 +33,7 @@
     "extends": "@xstools-dev/eslint-config/base"
   },
   "dependencies": {
-    "@pulumi/tls": "^5.0.9",
+    "@pulumi/tls": "^5.0.10",
     "@pulumiverse/acme": "^0.6.1"
   },
   "devDependencies": {
