@@ -24,8 +24,8 @@ importers:
   components/acme-cert:
     dependencies:
       '@pulumi/tls':
-        specifier: ^5.0.9
-        version: 5.0.9(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
+        specifier: ^5.0.10
+        version: 5.0.10(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
       '@pulumiverse/acme':
         specifier: ^0.6.1
         version: 0.6.1(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
@@ -60,8 +60,8 @@ importers:
   components/random-password:
     dependencies:
       '@pulumi/random':
-        specifier: ^4.16.7
-        version: 4.16.7(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
+        specifier: ^4.16.8
+        version: 4.16.8(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
     devDependencies:
       '@pulumi/pulumi':
         specifier: ^3.143.0
@@ -70,8 +70,8 @@ importers:
   components/random-suffix:
     dependencies:
       '@pulumi/random':
-        specifier: ^4.16.7
-        version: 4.16.7(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
+        specifier: ^4.16.8
+        version: 4.16.8(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
     devDependencies:
       '@pulumi/pulumi':
         specifier: ^3.143.0
@@ -1851,11 +1851,11 @@ packages:
   '@pulumi/query@0.3.0':
     resolution: {integrity: sha512-xfo+yLRM2zVjVEA4p23IjQWzyWl1ZhWOGobsBqRpIarzLvwNH/RAGaoehdxlhx4X92302DrpdIFgTICMN4P38w==}
 
-  '@pulumi/random@4.16.7':
-    resolution: {integrity: sha512-lY51FGL6dbD2o37HKqisrlHQH+q2yd+dInEcZR0H78fT33vTjzNHo2rUf89eK0Gb9JjFTCTw/CHC2qtT02MALA==}
+  '@pulumi/random@4.16.8':
+    resolution: {integrity: sha512-hJtaBARb2mIllAe+8X3nWdXcEaBhAwOobv6lkkdYGw+1hQg1HuGwKQYCIVegHfmdeHH9Sr55/BFqTm8yEMT9AA==}
 
-  '@pulumi/tls@5.0.9':
-    resolution: {integrity: sha512-AdER41itiGasBtDGk7zUQ7mAODPfqsCjsC3VTMcQBLiPSl7fdaABs4r0HFLq/9tC5VB6KN7uESLCsHf3GI4ZJg==}
+  '@pulumi/tls@5.0.10':
+    resolution: {integrity: sha512-A/T4KffdlWMycezaBve2E4PQRIXh98gFM8jBnWiTqNbFOK3rEoPD474NEbf/0gIpLU0irhkOwQxywpzMtiN65A==}
 
   '@pulumiverse/acme@0.6.1':
     resolution: {integrity: sha512-WpGPjsl1ViXESOlEpIqeW8hmlNEny0fn9KtqUq1//yNsubeGcJRGhbhPsEhYf1bFZiCeqU70cJhbZvYCS8KFjQ==}
@@ -10079,7 +10079,7 @@ snapshots:
 
   '@pulumi/query@0.3.0': {}
 
-  '@pulumi/random@4.16.7(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)':
+  '@pulumi/random@4.16.8(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)':
     dependencies:
       '@pulumi/pulumi': 3.143.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
     transitivePeerDependencies:
@@ -10088,7 +10088,7 @@ snapshots:
       - ts-node
       - typescript
 
-  '@pulumi/tls@5.0.9(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)':
+  '@pulumi/tls@5.0.10(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)':
     dependencies:
       '@pulumi/pulumi': 3.143.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.2)(typescript@5.7.2))(typescript@5.7.2)
     transitivePeerDependencies:
