@@ -1,5 +1,6 @@
 {
   "name": "examples",
+  "private": true,
   "scripts": {
     "check-type": "tsc --noEmit",
     "lint:js": "eslint . --cache --ext .js,.jsx,.ts,.tsx",
