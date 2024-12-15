@@ -21,6 +21,11 @@ interface AlicloudFcProps {
       qualifier: 'online' | 'preview';
     }[];
   };
+  vpc?: {
+    vpcId: string;
+    vswitchIds: string[];
+    securityGroupId: string;
+  };
 }
 
 export class AlicloudFc3Component extends pulumi.ComponentResource {
@@ -141,14 +146,14 @@ export class AlicloudFc3Component extends pulumi.ComponentResource {
         functionName: pulumi.interpolate`${this.name}-${suffix.result}`,
         internetAccess: true,
         runtime: this.props.runtime || 'custom.debian10',
-        handler: 'index.handler',
+        cpu: 0.05,
+        memorySize: 128,
+        diskSize: 512,
         code: {
           zipFile:
             'UEsDBBQACAAIAJOGJVUAAAAAAAAAAKICAAAIACAAaW5kZXguanNVVA0AB9e4FWPiuBVj17gVY3V4CwABBPUBAAAEFAAAAG2SwU7DMAyG730K35Kirr0zjQNIiHEAtMEJcchWbw1kSZekbBXau5PUKSC0Sxv7/2zHf1tdADoltZ/U0omVQrioMoUetugX4nBt6h5mYHHfSYucWXGYrEKO5dORujV29x+LSLUJwsitzgBRy/DYGutd2QhdK7SB4QEqAunaAtZGezz6HGZX8JVBjJ1RWCqz5axBpQwcjFX10AogTmqFFTsX+kQeQuibyzi3jKdiyO07tBIdpVNASoOiRpuUFJCyQ9+YmgQ6Uz5uhM6/LOakdVaRsFYStZ8/UXqMonYa7vrrLy3M0dpi8OlnW4BgIfC41Qf2IPXfC+cJoa0/heqQDB6B11DzNk1MtLN06O+GnXiQCqrJiThlZyh2E+0Pv8Zz3yIrgIm2VXItvDS6endGs1RNnpfpI8dX6c3SW6m3PCGpta75/fLxoXSDKDc9p9oCdKdUGBFZlg9Fp/AMXn0DUEsHCNdrlPNeAQAAogIAAFBLAQIUAxQACAAIAJOGJVXXa5TzXgEAAKICAAAIACAAAAAAAAAAAACkgQAAAABpbmRleC5qc1VUDQAH17gVY+K4FWPXuBVjdXgLAAEE9QEAAAQUAAAAUEsFBgAAAAABAAEAVgAAALQBAAAAAA==',
         },
-        cpu: 0.05,
-        memorySize: 128,
-        diskSize: 512,
+        handler: 'index.handler',
         ...(log
           ? {
               logConfig: {
@@ -158,9 +163,10 @@ export class AlicloudFc3Component extends pulumi.ComponentResource {
                 enableRequestMetrics: true,
               },
             }
-          : {}),
+          : { logConfig: {} }),
+        ...(this.props.vpc ? { vpcConfig: this.props.vpc } : { vpcConfig: {} }),
       },
-      { parent: this },
+      { parent: this, ignoreChanges: ['customRuntimeConfig'] },
     );
   }
 
