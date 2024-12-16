@@ -1,5 +1,11 @@
 # @pulumi-helpers/component-alicloud-fc3
 
+## 0.2.0
+
+### Minor Changes
+
+- [`523ba57`](https://github.com/bingtsingw/pulumi-helpers/commit/523ba5780506d6fefb5a3f09c2be55c2988efc5c) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 优化域名创建逻辑
+
 ## 0.1.0
 
 ### Minor Changes
