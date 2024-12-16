@@ -9,22 +9,25 @@ interface AlicloudFcProps {
   enableLog?: boolean;
   enableRam?: boolean;
   runtime?: 'custom.debian10';
-  domain?: {
-    cname: string;
-    host: string;
-    certName: string;
-    certCert: string;
-    certKey: string;
-
-    routes: {
-      record: string;
-      qualifier: 'online' | 'preview';
-    }[];
-  };
   vpc?: {
     vpcId: string;
     vswitchIds: string[];
     securityGroupId: string;
+  };
+  domain?: {
+    cname: string;
+
+    routes: {
+      record: string;
+      host: string;
+      qualifier: 'online' | 'preview';
+      waf?: boolean;
+      cert?: {
+        name: string;
+        pub: string;
+        pri: string;
+      };
+    }[];
   };
 }
 
@@ -185,7 +188,7 @@ export class AlicloudFc3Component extends pulumi.ComponentResource {
         name,
         {
           hostRecord: route.record,
-          name: this.props.domain.host,
+          name: route.host,
           type: 'CNAME',
           value: this.props.domain.cname,
         },
@@ -195,6 +198,7 @@ export class AlicloudFc3Component extends pulumi.ComponentResource {
       new alicloud.fc.V3CustomDomain(
         name,
         {
+          customDomainName: `${route.record}.${route.host}`,
           routeConfig: {
             routes: [
               {
@@ -204,13 +208,19 @@ export class AlicloudFc3Component extends pulumi.ComponentResource {
               },
             ],
           },
-          certConfig: {
-            certName: this.props.domain.certName,
-            certificate: this.props.domain.certCert,
-            privateKey: this.props.domain.certKey,
-          },
+          protocol: route.cert ? 'HTTPS' : 'HTTP',
+          ...(route.cert
+            ? {
+                certConfig: {
+                  certName: route.cert.name,
+                  certificate: route.cert.pub,
+                  privateKey: route.cert.pri,
+                },
+              }
+            : {}),
+          wafConfig: { enableWaf: route.waf ?? false },
         },
-        { parent: this, ignoreChanges: ['certConfig'] },
+        { parent: this, ignoreChanges: ['certConfig', 'protocol'] },
       );
     }
   }
