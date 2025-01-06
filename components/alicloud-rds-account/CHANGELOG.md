@@ -1,0 +1,13 @@
+# @pulumi-helpers/component-alicloud-rds-account
+
+## 0.1.0
+
+### Minor Changes
+
+- [`05967e4`](https://github.com/bingtsingw/pulumi-helpers/commit/05967e4a285495b76fae8dc1ee0fa29ce2cb29c4) Thanks [@bingtsingw](https://github.com/bingtsingw)! - add component-alicloud-rds-account
+
+### Patch Changes
+
+- Updated dependencies [[`0eba511`](https://github.com/bingtsingw/pulumi-helpers/commit/0eba51101360518f9527286e48aa99d26c92d165)]:
+  - @pulumi-helpers/component-random-password@0.3.1
+  - @pulumi-helpers/component-random-suffix@0.3.1

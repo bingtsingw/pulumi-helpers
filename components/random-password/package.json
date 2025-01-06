@@ -1,6 +1,6 @@
 {
   "name": "@pulumi-helpers/component-random-password",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "keywords": [
     "pulumi",
     "pulumi-component",
