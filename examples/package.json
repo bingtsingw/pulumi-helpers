@@ -19,7 +19,7 @@
     "@pulumi-helpers/component-alicloud-ram-user": "workspace:^",
     "@pulumi-helpers/component-random-password": "workspace:^",
     "@pulumi-helpers/component-random-suffix": "workspace:^",
-    "@pulumi/alicloud": "^3.69.0",
-    "@pulumi/pulumi": "^3.143.0"
+    "@pulumi/alicloud": "^3.71.0",
+    "@pulumi/pulumi": "^3.144.1"
   }
 }
