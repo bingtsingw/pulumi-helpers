@@ -30,7 +30,10 @@
     "test": "bun test"
   },
   "eslintConfig": {
-    "extends": "@xstools-dev/eslint-config/base"
+    "extends": "@xstools-dev/eslint-config/base",
+    "rules": {
+      "no-new": "off"
+    }
   },
   "dependencies": {
     "@pulumi/tls": "^5.0.10",
