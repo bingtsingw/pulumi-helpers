@@ -1,6 +1,6 @@
 {
   "name": "@pulumi-helpers/component-acme-cert",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "keywords": [
     "pulumi",
     "pulumi-component",
