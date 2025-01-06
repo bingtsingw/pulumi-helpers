@@ -89,6 +89,38 @@ importers:
         specifier: ^3.144.1
         version: 3.144.1(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.5)(typescript@5.7.2))(typescript@5.7.2)
 
+  components/alicloud-rds-account:
+    dependencies:
+      '@pulumi-helpers/component-random-password':
+        specifier: workspace:^
+        version: link:../random-password
+      '@pulumi-helpers/component-random-suffix':
+        specifier: workspace:^
+        version: link:../random-suffix
+      '@pulumi/alicloud':
+        specifier: ^3.71.0
+        version: 3.71.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.5)(typescript@5.7.2))(typescript@5.7.2)
+      es-toolkit:
+        specifier: ^1.31.0
+        version: 1.31.0
+    devDependencies:
+      '@pulumi/pulumi':
+        specifier: ^3.144.1
+        version: 3.144.1(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.5)(typescript@5.7.2))(typescript@5.7.2)
+
+  components/alicloud-rds-db:
+    dependencies:
+      '@pulumi-helpers/component-alicloud-rds-account':
+        specifier: workspace:^
+        version: link:../alicloud-rds-account
+      '@pulumi/alicloud':
+        specifier: ^3.71.0
+        version: 3.71.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.5)(typescript@5.7.2))(typescript@5.7.2)
+    devDependencies:
+      '@pulumi/pulumi':
+        specifier: ^3.144.1
+        version: 3.144.1(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.5)(typescript@5.7.2))(typescript@5.7.2)
+
   components/random-password:
     dependencies:
       '@pulumi/random':
@@ -123,6 +155,12 @@ importers:
       '@pulumi-helpers/component-alicloud-ram-user':
         specifier: workspace:^
         version: link:../components/alicloud-ram-user
+      '@pulumi-helpers/component-alicloud-rds-account':
+        specifier: workspace:^
+        version: link:../components/alicloud-rds-account
+      '@pulumi-helpers/component-alicloud-rds-db':
+        specifier: workspace:^
+        version: link:../components/alicloud-rds-db
       '@pulumi-helpers/component-random-password':
         specifier: workspace:^
         version: link:../components/random-password
@@ -3798,6 +3836,9 @@ packages:
   es-to-primitive@1.3.0:
     resolution: {integrity: sha512-w+5mJ3GuFL+NjVtJlvydShqE1eN3h3PbI7/5LAsYJP/2qtuMXjfL2LpHSRqo4b4eSF5K/DH1JXKUAHSB2UW50g==}
     engines: {node: '>= 0.4'}
+
+  es-toolkit@1.31.0:
+    resolution: {integrity: sha512-vwS0lv/tzjM2/t4aZZRAgN9I9TP0MSkWuvt6By+hEXfG/uLs8yg2S1/ayRXH/x3pinbLgVJYT+eppueg3cM6tg==}
 
   esbuild@0.24.2:
     resolution: {integrity: sha512-+9egpBW8I3CD5XPe0n6BfT5fxLzxrlDzqydF3aviG+9ni1lDC/OvMHcxqEFV0+LANZG5R1bFMWfUrjVsdwxJvA==}
@@ -12710,6 +12751,8 @@ snapshots:
       is-callable: 1.2.7
       is-date-object: 1.1.0
       is-symbol: 1.1.1
+
+  es-toolkit@1.31.0: {}
 
   esbuild@0.24.2:
     optionalDependencies:
