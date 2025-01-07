@@ -4,6 +4,7 @@ import { providers } from './_provider';
 const oss = new AlicloudOssComponent(
   'pulumi-helpers',
   {
+    withSuffix: true,
     enableRam: true,
   },
   { provider: providers.alicloud },

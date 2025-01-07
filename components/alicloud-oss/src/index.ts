@@ -1,9 +1,11 @@
 import { AlicloudCdnComponent } from '@pulumi-helpers/component-alicloud-cdn';
 import { AlicloudRamUserComponent } from '@pulumi-helpers/component-alicloud-ram-user';
+import { RandomSuffixComponent } from '@pulumi-helpers/component-random-suffix';
 import * as alicloud from '@pulumi/alicloud';
 import * as pulumi from '@pulumi/pulumi';
 
 interface AlicloudOssProps {
+  withSuffix?: boolean;
   log?: string;
   acl?: 'private' | 'public-read' | 'public-read-write';
   storageClass?: 'Standard' | 'IA' | 'Archive' | 'ColdArchive' | 'DeepColdArchive';
@@ -45,7 +47,15 @@ export class AlicloudOssComponent extends pulumi.ComponentResource {
 
   private createOss() {
     const { acl = 'public-read', storageClass = 'Standard', redundancyType = 'LRS', log } = this.props;
-    const bucket = this.name;
+
+    let bucket: pulumi.Output<string>;
+
+    if (this.props.withSuffix) {
+      const suffix = new RandomSuffixComponent(this.name, { length: 7 }, { parent: this });
+      bucket = pulumi.interpolate`${this.name}-${suffix.result}`;
+    } else {
+      bucket = pulumi.output(this.name);
+    }
 
     const bucketArgs: alicloud.oss.BucketArgs = {
       bucket,
@@ -74,9 +84,9 @@ export class AlicloudOssComponent extends pulumi.ComponentResource {
       ];
     }
 
-    const oss = new alicloud.oss.Bucket(bucket, bucketArgs, { parent: this });
+    const oss = new alicloud.oss.Bucket(this.name, bucketArgs, { parent: this, deleteBeforeReplace: true });
 
-    new alicloud.oss.BucketAcl(bucket, { bucket: oss.id, acl }, { parent: this });
+    new alicloud.oss.BucketAcl(this.name, { bucket: oss.id, acl }, { parent: this, deleteBeforeReplace: true });
 
     return oss;
   }

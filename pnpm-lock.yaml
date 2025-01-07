@@ -84,6 +84,9 @@ importers:
       '@pulumi-helpers/component-alicloud-ram-user':
         specifier: workspace:^
         version: link:../alicloud-ram-user
+      '@pulumi-helpers/component-random-suffix':
+        specifier: workspace:^
+        version: link:../random-suffix
       '@pulumi/alicloud':
         specifier: ^3.71.0
         version: 3.71.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.10.5)(typescript@5.7.2))(typescript@5.7.2)
