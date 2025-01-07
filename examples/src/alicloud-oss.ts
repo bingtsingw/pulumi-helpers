@@ -13,4 +13,5 @@ const oss = new AlicloudOssComponent(
 export const alicloudOss = {
   ak: oss.ak,
   sk: oss.sk,
+  bucket: oss.bucket,
 };

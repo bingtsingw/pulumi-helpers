@@ -24,6 +24,7 @@ interface AlicloudOssProps {
 export class AlicloudOssComponent extends pulumi.ComponentResource {
   public ak?: pulumi.Output<string>;
   public sk?: pulumi.Output<string>;
+  public bucket?: pulumi.Output<string>;
 
   public constructor(
     private name: string,
@@ -87,6 +88,8 @@ export class AlicloudOssComponent extends pulumi.ComponentResource {
     const oss = new alicloud.oss.Bucket(this.name, bucketArgs, { parent: this, deleteBeforeReplace: true });
 
     new alicloud.oss.BucketAcl(this.name, { bucket: oss.id, acl }, { parent: this, deleteBeforeReplace: true });
+
+    this.bucket = oss.id;
 
     return oss;
   }
