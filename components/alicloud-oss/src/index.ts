@@ -49,7 +49,7 @@ export class AlicloudOssComponent extends pulumi.ComponentResource {
   private createOss() {
     const { acl = 'public-read', storageClass = 'Standard', redundancyType = 'LRS', log } = this.props;
 
-    let bucket: pulumi.Output<string>;
+    let bucket: pulumi.Input<string>;
 
     if (this.props.withSuffix) {
       const suffix = new RandomSuffixComponent(this.name, { length: 7 }, { parent: this });
@@ -69,7 +69,7 @@ export class AlicloudOssComponent extends pulumi.ComponentResource {
     if (log) {
       bucketArgs.logging = {
         targetBucket: log,
-        targetPrefix: `oss-access/${bucket}/`,
+        targetPrefix: pulumi.interpolate`oss-access/${bucket}/`,
       };
     }
 
@@ -85,9 +85,9 @@ export class AlicloudOssComponent extends pulumi.ComponentResource {
       ];
     }
 
-    const oss = new alicloud.oss.Bucket(this.name, bucketArgs, { parent: this, deleteBeforeReplace: true });
+    const oss = new alicloud.oss.Bucket(this.name, bucketArgs, { parent: this });
 
-    new alicloud.oss.BucketAcl(this.name, { bucket: oss.id, acl }, { parent: this, deleteBeforeReplace: true });
+    new alicloud.oss.BucketAcl(this.name, { bucket: oss.id, acl }, { parent: this });
 
     this.bucket = oss.id;
 
