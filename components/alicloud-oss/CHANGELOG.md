@@ -1,5 +1,11 @@
 # @pulumi-helpers/component-alicloud-oss
 
+## 0.2.2
+
+### Patch Changes
+
+- [`42bee11`](https://github.com/bingtsingw/pulumi-helpers/commit/42bee1189cad82f4dd48fb7700b8ba86cd2793f6) Thanks [@bingtsingw](https://github.com/bingtsingw)! - fix logging prefix
+
 ## 0.2.1
 
 ### Patch Changes
