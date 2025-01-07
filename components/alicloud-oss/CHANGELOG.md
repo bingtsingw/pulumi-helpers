@@ -1,5 +1,11 @@
 # @pulumi-helpers/component-alicloud-oss
 
+## 0.2.1
+
+### Patch Changes
+
+- [`66b4762`](https://github.com/bingtsingw/pulumi-helpers/commit/66b4762c07afd396bc63e9da247afb5367ad0fa8) Thanks [@bingtsingw](https://github.com/bingtsingw)! - add output bucket
+
 ## 0.2.0
 
 ### Minor Changes
