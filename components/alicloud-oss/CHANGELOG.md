@@ -1,5 +1,11 @@
 # @pulumi-helpers/component-alicloud-oss
 
+## 0.2.3
+
+### Patch Changes
+
+- [`3be3032`](https://github.com/bingtsingw/pulumi-helpers/commit/3be3032626eb618323089676adec302b87ebd08b) Thanks [@bingtsingw](https://github.com/bingtsingw)! - cdn source domain bug
+
 ## 0.2.2
 
 ### Patch Changes
