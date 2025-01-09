@@ -133,7 +133,9 @@ export class AlicloudOssComponent extends pulumi.ComponentResource {
         resourceGroupId: this.props.enableCdn.resourceGroupId,
         type: this.props.enableCdn.type,
         scope: this.props.enableCdn.scope,
-        sources: [{ content: pulumi.interpolate`${this.name}.${oss.extranetEndpoint}` as any, type: 'oss', port: 443 }],
+        sources: [
+          { content: pulumi.interpolate`${oss.bucket}.${oss.extranetEndpoint}` as any, type: 'oss', port: 443 },
+        ],
         domain: { host: this.props.enableCdn.domain.host, record: this.props.enableCdn.domain.record },
         cert: this.props.enableCdn.cert,
       },
