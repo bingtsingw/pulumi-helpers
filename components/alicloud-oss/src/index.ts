@@ -2,6 +2,7 @@ import { AlicloudCdnComponent } from '@pulumi-helpers/component-alicloud-cdn';
 import { AlicloudRamUserComponent } from '@pulumi-helpers/component-alicloud-ram-user';
 import { RandomSuffixComponent } from '@pulumi-helpers/component-random-suffix';
 import * as alicloud from '@pulumi/alicloud';
+import type { Bucket } from '@pulumi/alicloud/oss';
 import * as pulumi from '@pulumi/pulumi';
 
 interface AlicloudOssProps {
@@ -36,7 +37,7 @@ export class AlicloudOssComponent extends pulumi.ComponentResource {
     const oss = this.createOss();
 
     if (props.enableRam) {
-      this.createRam();
+      this.createRam(oss);
     }
 
     if (props.enableCdn) {
@@ -94,23 +95,25 @@ export class AlicloudOssComponent extends pulumi.ComponentResource {
     return oss;
   }
 
-  private createRam() {
+  private createRam(oss: Bucket) {
     const bucketName = this.name;
     const ramName = `oss-${bucketName}-ram`;
 
     const ram = new AlicloudRamUserComponent(
       ramName,
       {
-        policy: JSON.stringify({
-          Statement: [
-            {
-              Effect: 'Allow',
-              Action: 'oss:*',
-              Resource: [`acs:oss:*:*:${bucketName}`, `acs:oss:*:*:${bucketName}/*`],
-            },
-          ],
-          Version: '1',
-        }),
+        policy: oss.id.apply((_id) =>
+          JSON.stringify({
+            Statement: [
+              {
+                Effect: 'Allow',
+                Action: 'oss:*',
+                Resource: [`acs:oss:*:*:${_id}`, `acs:oss:*:*:${_id}/*`],
+              },
+            ],
+            Version: '1',
+          }),
+        ),
         enableAk: true,
       },
       { parent: this },
