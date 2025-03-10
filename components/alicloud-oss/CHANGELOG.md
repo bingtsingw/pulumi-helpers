@@ -1,5 +1,11 @@
 # @pulumi-helpers/component-alicloud-oss
 
+## 0.2.4
+
+### Patch Changes
+
+- [`63752f7`](https://github.com/bingtsingw/pulumi-helpers/commit/63752f7a6c91192af2eb28ba15834acab02aeb22) Thanks [@bingtsingw](https://github.com/bingtsingw)! - ram policy resource
+
 ## 0.2.3
 
 ### Patch Changes
