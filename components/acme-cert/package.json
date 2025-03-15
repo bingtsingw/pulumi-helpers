@@ -36,8 +36,8 @@
     }
   },
   "dependencies": {
-    "@pulumi/tls": "^5.0.10",
-    "@pulumiverse/acme": "^0.7.0"
+    "@pulumi/tls": "^5.1.1",
+    "@pulumiverse/acme": "^0.8.2"
   },
   "devDependencies": {
     "@pulumi/pulumi": "^3.144.1"
