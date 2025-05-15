@@ -40,7 +40,7 @@
     "@pulumiverse/acme": "^0.7.0"
   },
   "devDependencies": {
-    "@pulumi/pulumi": "^3.144.1"
+    "@pulumi/pulumi": "^3.170.0"
   },
   "peerDependencies": {
     "@pulumi/pulumi": "*"
