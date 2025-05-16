@@ -95,7 +95,7 @@ export class AlicloudCdnComponent extends pulumi.ComponentResource {
       {
         domainName: cdn.domainName,
         functionName: 'set_req_host_header',
-        functionArgs: [{ argName: 'domain_name', argValue: this.host }],
+        functionArgs: [{ argName: 'domain_name', argValue: this.props.sources[0]!.content }],
       },
       { parent: this },
     );

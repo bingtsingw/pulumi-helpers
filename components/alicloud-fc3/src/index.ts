@@ -8,7 +8,7 @@ import * as pulumi from '@pulumi/pulumi';
 interface AlicloudFcProps {
   enableLog?: boolean;
   enableRam?: boolean;
-  runtime?: 'custom.debian10';
+  runtime?: 'custom.debian12';
   vpc?: {
     vpcId: string;
     vswitchIds: string[];
@@ -148,7 +148,7 @@ export class AlicloudFc3Component extends pulumi.ComponentResource {
       {
         functionName: pulumi.interpolate`${this.name}-${suffix.result}`,
         internetAccess: true,
-        runtime: this.props.runtime || 'custom.debian10',
+        runtime: this.props.runtime || 'custom.debian12',
         cpu: 0.05,
         memorySize: 128,
         diskSize: 512,

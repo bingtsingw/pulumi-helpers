@@ -39,7 +39,7 @@
     "@pulumi/random": "^4.16.8"
   },
   "devDependencies": {
-    "@pulumi/pulumi": "^3.144.1"
+    "@pulumi/pulumi": "^3.170.0"
   },
   "peerDependencies": {
     "@pulumi/pulumi": "*"
