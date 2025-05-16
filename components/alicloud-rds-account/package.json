@@ -39,7 +39,7 @@
     "@pulumi-helpers/component-random-password": "workspace:^",
     "@pulumi-helpers/component-random-suffix": "workspace:^",
     "@pulumi/alicloud": "^3.77.0",
-    "es-toolkit": "^1.31.0"
+    "es-toolkit": "^1.37.2"
   },
   "devDependencies": {
     "@pulumi/pulumi": "^3.170.0"

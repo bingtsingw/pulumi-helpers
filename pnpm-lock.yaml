@@ -120,8 +120,8 @@ importers:
         specifier: ^3.77.0
         version: 3.77.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
       es-toolkit:
-        specifier: ^1.31.0
-        version: 1.31.0
+        specifier: ^1.37.2
+        version: 1.37.2
     devDependencies:
       '@pulumi/pulumi':
         specifier: ^3.170.0
@@ -143,8 +143,8 @@ importers:
   components/random-password:
     dependencies:
       '@pulumi/random':
-        specifier: ^4.16.8
-        version: 4.16.8(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^4.18.2
+        version: 4.18.2(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
         specifier: ^3.170.0
@@ -153,8 +153,8 @@ importers:
   components/random-suffix:
     dependencies:
       '@pulumi/random':
-        specifier: ^4.16.8
-        version: 4.16.8(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^4.18.2
+        version: 4.18.2(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
         specifier: ^3.170.0
@@ -2081,8 +2081,8 @@ packages:
       typescript:
         optional: true
 
-  '@pulumi/random@4.16.8':
-    resolution: {integrity: sha512-hJtaBARb2mIllAe+8X3nWdXcEaBhAwOobv6lkkdYGw+1hQg1HuGwKQYCIVegHfmdeHH9Sr55/BFqTm8yEMT9AA==}
+  '@pulumi/random@4.18.2':
+    resolution: {integrity: sha512-jC0HfgkFKwgUGmocM7Tw6UyOrpLFXGO8kYfV6f5Q9R/yziaVxEVPQ0Uup2HfosDh926EZHJrt2EUIJHWCyOvFA==}
 
   '@pulumi/tls@5.2.0':
     resolution: {integrity: sha512-wnhjCa3pz0eEv1DS5msN7yo5Ew1HrsbkMVZEiGve8fApIPKEIzfWnK11NlLlJyJNn2ffTuGao6hbAD4RKPiuuA==}
@@ -3975,8 +3975,8 @@ packages:
     resolution: {integrity: sha512-w+5mJ3GuFL+NjVtJlvydShqE1eN3h3PbI7/5LAsYJP/2qtuMXjfL2LpHSRqo4b4eSF5K/DH1JXKUAHSB2UW50g==}
     engines: {node: '>= 0.4'}
 
-  es-toolkit@1.31.0:
-    resolution: {integrity: sha512-vwS0lv/tzjM2/t4aZZRAgN9I9TP0MSkWuvt6By+hEXfG/uLs8yg2S1/ayRXH/x3pinbLgVJYT+eppueg3cM6tg==}
+  es-toolkit@1.37.2:
+    resolution: {integrity: sha512-ADDfk+pPFF0ofMpRAIc6on01p8heiuwuuJsYLzTP4UOjxVK9QsE2+0D1Q4J/zX2XBo6ac+27H5++YBIwmGAX/g==}
 
   esbuild@0.25.1:
     resolution: {integrity: sha512-BGO5LtrGC7vxnqucAe/rmvKdJllfGaYWdyABvyMoXQlfYMb2bbRuReWR5tEGE//4LcNJj9XrkovTqNYRFZHAMQ==}
@@ -10541,7 +10541,7 @@ snapshots:
       - bluebird
       - supports-color
 
-  '@pulumi/random@4.16.8(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)':
+  '@pulumi/random@4.18.2(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)':
     dependencies:
       '@pulumi/pulumi': 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     transitivePeerDependencies:
@@ -13074,7 +13074,7 @@ snapshots:
       is-date-object: 1.1.0
       is-symbol: 1.1.1
 
-  es-toolkit@1.31.0: {}
+  es-toolkit@1.37.2: {}
 
   esbuild@0.25.1:
     optionalDependencies:
