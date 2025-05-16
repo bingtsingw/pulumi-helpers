@@ -22,7 +22,7 @@
     "@pulumi-helpers/component-alicloud-rds-db": "workspace:^",
     "@pulumi-helpers/component-random-password": "workspace:^",
     "@pulumi-helpers/component-random-suffix": "workspace:^",
-    "@pulumi/alicloud": "^3.77.0",
+    "@pulumi/alicloud": "^3.78.0",
     "@pulumi/pulumi": "^3.170.0"
   }
 }
