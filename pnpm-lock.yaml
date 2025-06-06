@@ -9,14 +9,14 @@ importers:
   .:
     devDependencies:
       '@types/bun':
-        specifier: ^1.2.13
-        version: 1.2.13
+        specifier: ^1.2.15
+        version: 1.2.15
       '@types/node':
-        specifier: ^22.15.18
-        version: 22.15.18
+        specifier: ^22.15.30
+        version: 22.15.30
       '@xstools-dev/mix':
         specifier: ^0.13.2
-        version: 0.13.2(@swc/core@1.4.14)(@types/node@22.15.18)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(encoding@0.1.13)(eslint@8.57.1)(jiti@2.4.2)(postcss@8.5.3)(prettier@3.5.3)(typescript@5.8.3)(yaml@2.7.0)
+        version: 0.13.2(@swc/core@1.4.14)(@types/node@22.15.30)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(encoding@0.1.13)(eslint@8.57.1)(jiti@2.4.2)(postcss@8.5.3)(prettier@3.5.3)(typescript@5.8.3)(yaml@2.7.0)
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -25,24 +25,24 @@ importers:
     dependencies:
       '@pulumi/tls':
         specifier: ^5.2.0
-        version: 5.2.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        version: 5.2.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
       '@pulumiverse/acme':
         specifier: ^0.10.0
-        version: 0.10.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        version: 0.10.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
-        specifier: ^3.170.0
-        version: 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.175.0
+        version: 3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
 
   components/alicloud-cdn:
     dependencies:
       '@pulumi/alicloud':
         specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
-        specifier: ^3.170.0
-        version: 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.175.0
+        version: 3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
 
   components/alicloud-fc3:
     dependencies:
@@ -57,11 +57,11 @@ importers:
         version: link:../random-suffix
       '@pulumi/alicloud':
         specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
-        specifier: ^3.170.0
-        version: 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.175.0
+        version: 3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
 
   components/alicloud-log:
     dependencies:
@@ -70,11 +70,11 @@ importers:
         version: link:../random-suffix
       '@pulumi/alicloud':
         specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
-        specifier: ^3.170.0
-        version: 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.175.0
+        version: 3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
 
   components/alicloud-oss:
     dependencies:
@@ -89,11 +89,11 @@ importers:
         version: link:../random-suffix
       '@pulumi/alicloud':
         specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
-        specifier: ^3.170.0
-        version: 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.175.0
+        version: 3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
 
   components/alicloud-ram-user:
     dependencies:
@@ -102,11 +102,11 @@ importers:
         version: link:../random-suffix
       '@pulumi/alicloud':
         specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
-        specifier: ^3.170.0
-        version: 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.175.0
+        version: 3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
 
   components/alicloud-rds-account:
     dependencies:
@@ -118,14 +118,14 @@ importers:
         version: link:../random-suffix
       '@pulumi/alicloud':
         specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
       es-toolkit:
         specifier: ^1.37.2
         version: 1.37.2
     devDependencies:
       '@pulumi/pulumi':
-        specifier: ^3.170.0
-        version: 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.175.0
+        version: 3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
 
   components/alicloud-rds-db:
     dependencies:
@@ -134,31 +134,31 @@ importers:
         version: link:../alicloud-rds-account
       '@pulumi/alicloud':
         specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
-        specifier: ^3.170.0
-        version: 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.175.0
+        version: 3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
 
   components/random-password:
     dependencies:
       '@pulumi/random':
         specifier: ^4.18.2
-        version: 4.18.2(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        version: 4.18.2(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
-        specifier: ^3.170.0
-        version: 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.175.0
+        version: 3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
 
   components/random-suffix:
     dependencies:
       '@pulumi/random':
         specifier: ^4.18.2
-        version: 4.18.2(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        version: 4.18.2(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
-        specifier: ^3.170.0
-        version: 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.175.0
+        version: 3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
 
   examples:
     dependencies:
@@ -191,10 +191,10 @@ importers:
         version: link:../components/random-suffix
       '@pulumi/alicloud':
         specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
       '@pulumi/pulumi':
         specifier: ^3.170.0
-        version: 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        version: 3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
 
 packages:
 
@@ -2069,9 +2069,9 @@ packages:
   '@pulumi/alicloud@3.78.0':
     resolution: {integrity: sha512-nHL710haP5POFJgMJ6fQwF+P937+g4jibb35jQOdWXg5NWB4QhHl6ubokLVwQK3CgW4iUQxifH9wnrCBRuN1oQ==}
 
-  '@pulumi/pulumi@3.170.0':
-    resolution: {integrity: sha512-r39S0mdbEs3vyONZ/V4mWN1ThF4zSGXno6gkx4B7+QygtW5D1hnqxllQ8rp3vZ5sCqFACvMP8GV2NLtAsvGmqg==}
-    engines: {node: '>=18'}
+  '@pulumi/pulumi@3.175.0':
+    resolution: {integrity: sha512-15d34B01pkacNiMwX5pXKzo+jSls2UMQV9A754/Hudujml/zp1MDxEeTtgfRYX4r5WDppswoFvNK93RnbHCTWA==}
+    engines: {node: '>=20'}
     peerDependencies:
       ts-node: '>= 7.0.1 < 12'
       typescript: '>= 3.8.3 < 6'
@@ -2351,8 +2351,8 @@ packages:
     resolution: {integrity: sha512-92F7/SFyufn4DXsha9+QfKnN03JGqtMFMXgSHbZOo8JG59WkTni7UzAouNQDf7AuP9OAMxVOPQcqG3sB7w+kkg==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
-  '@types/bun@1.2.13':
-    resolution: {integrity: sha512-u6vXep/i9VBxoJl3GjZsl/BFIsvML8DfVDO0RYLEwtSZSp981kEO1V5NwRcO1CPJ7AmvpbnDCiMKo3JvbDEjAg==}
+  '@types/bun@1.2.15':
+    resolution: {integrity: sha512-U1ljPdBEphF0nw1MIk0hI7kPg7dFdPyM7EenHsp6W5loNHl7zqy6JQf/RKCgnUn2KDzUpkBwHPnEJEjII594bA==}
 
   '@types/cacheable-request@6.0.3':
     resolution: {integrity: sha512-IQ3EbTzGxIigb1I3qPZc1rWJnH0BmSKv5QYTalEwweFvyBDLSAe24zP0le/hyi7ecGfZVlIVAg4BZqb8WBwKqw==}
@@ -2387,8 +2387,8 @@ packages:
   '@types/node@12.20.55':
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
 
-  '@types/node@22.15.18':
-    resolution: {integrity: sha512-v1DKRfUdyW+jJhZNEI1PYy29S2YRxMV5AOO/x/SjKmW0acCIOqmbj6Haf9eHAhsPmrhlHSxEhv/1WszcLWV4cg==}
+  '@types/node@22.15.30':
+    resolution: {integrity: sha512-6Q7lr06bEHdlfplU6YRbgG1SFBdlsfNC4/lX+SkhiTs0cpJkOElmWls8PxDFv4yY/xKb8Y6SO0OmSX4wgqTZbA==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2398,9 +2398,6 @@ packages:
 
   '@types/responselike@1.0.3':
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
-
-  '@types/semver@7.5.8':
-    resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
 
   '@types/semver@7.7.0':
     resolution: {integrity: sha512-k107IF4+Xr7UHjwDc7Cfd6PRQfbdkiRabXGRjo07b4WyPahFBZCZ1sE+BNxYIJPPg73UkfOsVOLwqVc/6ETrIA==}
@@ -3126,8 +3123,8 @@ packages:
   buffer@6.0.3:
     resolution: {integrity: sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==}
 
-  bun-types@1.2.13:
-    resolution: {integrity: sha512-rRjA1T6n7wto4gxhAO/ErZEtOXyEZEmnIHQfl0Dt1QQSB4QV0iP6BZ9/YB5fZaHFQ2dwHFrmPaRQ9GGMX01k9Q==}
+  bun-types@1.2.15:
+    resolution: {integrity: sha512-NarRIaS+iOaQU1JPfyKhZm4AsUOrwUOqRNHY0XxI8GI8jYxiLXLcdjYMG9UKS+fwWasc1uw1htV9AX24dD+p4w==}
 
   bundle-name@4.1.0:
     resolution: {integrity: sha512-tjwM5exMg6BGRI+kNmTntNsvdZS1X8BFYS6tnJ2hdH0kVxM6/eVZ2xy+FqStSWvYmtfFMDLIxurorHwDKfDz5Q==}
@@ -4729,9 +4726,6 @@ packages:
 
   http-cache-semantics@3.8.1:
     resolution: {integrity: sha512-5ai2iksyV8ZXmnZhHH4rWPoxxistEexSi5936zIQ1bnNTW5VnA85B6P/VpXiRM017IgRvb2kKo1a//y+0wSp3w==}
-
-  http-cache-semantics@4.1.1:
-    resolution: {integrity: sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==}
 
   http-cache-semantics@4.2.0:
     resolution: {integrity: sha512-dTxcvPXqPvXBQpq5dUr6mEMJX4oIEFv6bwom3FDwKRDsuIjjJGANqhBuoAn9c1RQJIdAKav33ED65E2ys+87QQ==}
@@ -9104,7 +9098,7 @@ snapshots:
       outdent: 0.5.0
       prettier: 2.8.8
       resolve-from: 5.0.0
-      semver: 7.7.1
+      semver: 7.7.2
 
   '@changesets/assemble-release-plan@6.0.6':
     dependencies:
@@ -9113,7 +9107,7 @@ snapshots:
       '@changesets/should-skip-package': 0.1.2
       '@changesets/types': 6.1.0
       '@manypkg/get-packages': 1.1.3
-      semver: 7.7.1
+      semver: 7.7.2
 
   '@changesets/changelog-git@0.2.1':
     dependencies:
@@ -9177,7 +9171,7 @@ snapshots:
       '@changesets/types': 6.1.0
       '@manypkg/get-packages': 1.1.3
       picocolors: 1.1.1
-      semver: 7.7.1
+      semver: 7.7.2
 
   '@changesets/get-github-info@0.6.0(encoding@0.1.13)':
     dependencies:
@@ -9247,11 +9241,11 @@ snapshots:
       human-id: 4.1.1
       prettier: 2.8.8
 
-  '@commitlint/cli@19.7.1(@types/node@22.15.18)(typescript@5.8.3)':
+  '@commitlint/cli@19.7.1(@types/node@22.15.30)(typescript@5.8.3)':
     dependencies:
       '@commitlint/format': 19.8.0
       '@commitlint/lint': 19.8.0
-      '@commitlint/load': 19.8.0(@types/node@22.15.18)(typescript@5.8.3)
+      '@commitlint/load': 19.8.0(@types/node@22.15.30)(typescript@5.8.3)
       '@commitlint/read': 19.8.0
       '@commitlint/types': 19.8.0
       tinyexec: 0.3.2
@@ -9289,7 +9283,7 @@ snapshots:
   '@commitlint/is-ignored@19.8.0':
     dependencies:
       '@commitlint/types': 19.8.0
-      semver: 7.7.1
+      semver: 7.7.2
 
   '@commitlint/lint@19.8.0':
     dependencies:
@@ -9298,7 +9292,7 @@ snapshots:
       '@commitlint/rules': 19.8.0
       '@commitlint/types': 19.8.0
 
-  '@commitlint/load@19.8.0(@types/node@22.15.18)(typescript@5.8.3)':
+  '@commitlint/load@19.8.0(@types/node@22.15.30)(typescript@5.8.3)':
     dependencies:
       '@commitlint/config-validator': 19.8.0
       '@commitlint/execute-rule': 19.8.0
@@ -9306,7 +9300,7 @@ snapshots:
       '@commitlint/types': 19.8.0
       chalk: 5.4.1
       cosmiconfig: 9.0.0(typescript@5.8.3)
-      cosmiconfig-typescript-loader: 6.1.0(@types/node@22.15.18)(cosmiconfig@9.0.0(typescript@5.8.3))(typescript@5.8.3)
+      cosmiconfig-typescript-loader: 6.1.0(@types/node@22.15.30)(cosmiconfig@9.0.0(typescript@5.8.3))(typescript@5.8.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -9359,8 +9353,8 @@ snapshots:
 
   '@conventional-changelog/git-client@1.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)':
     dependencies:
-      '@types/semver': 7.5.8
-      semver: 7.7.1
+      '@types/semver': 7.7.0
+      semver: 7.7.2
     optionalDependencies:
       conventional-commits-filter: 5.0.0
       conventional-commits-parser: 6.1.0
@@ -9526,27 +9520,27 @@ snapshots:
 
   '@iarna/toml@2.2.5': {}
 
-  '@inquirer/checkbox@4.1.3(@types/node@22.15.18)':
+  '@inquirer/checkbox@4.1.3(@types/node@22.15.30)':
     dependencies:
-      '@inquirer/core': 10.1.8(@types/node@22.15.18)
+      '@inquirer/core': 10.1.8(@types/node@22.15.30)
       '@inquirer/figures': 1.0.11
-      '@inquirer/type': 3.0.5(@types/node@22.15.18)
+      '@inquirer/type': 3.0.5(@types/node@22.15.30)
       ansi-escapes: 4.3.2
       yoctocolors-cjs: 2.1.2
     optionalDependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
-  '@inquirer/confirm@5.1.7(@types/node@22.15.18)':
+  '@inquirer/confirm@5.1.7(@types/node@22.15.30)':
     dependencies:
-      '@inquirer/core': 10.1.8(@types/node@22.15.18)
-      '@inquirer/type': 3.0.5(@types/node@22.15.18)
+      '@inquirer/core': 10.1.8(@types/node@22.15.30)
+      '@inquirer/type': 3.0.5(@types/node@22.15.30)
     optionalDependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
-  '@inquirer/core@10.1.8(@types/node@22.15.18)':
+  '@inquirer/core@10.1.8(@types/node@22.15.30)':
     dependencies:
       '@inquirer/figures': 1.0.11
-      '@inquirer/type': 3.0.5(@types/node@22.15.18)
+      '@inquirer/type': 3.0.5(@types/node@22.15.30)
       ansi-escapes: 4.3.2
       cli-width: 4.1.0
       mute-stream: 2.0.0
@@ -9554,93 +9548,93 @@ snapshots:
       wrap-ansi: 6.2.0
       yoctocolors-cjs: 2.1.2
     optionalDependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
-  '@inquirer/editor@4.2.8(@types/node@22.15.18)':
+  '@inquirer/editor@4.2.8(@types/node@22.15.30)':
     dependencies:
-      '@inquirer/core': 10.1.8(@types/node@22.15.18)
-      '@inquirer/type': 3.0.5(@types/node@22.15.18)
+      '@inquirer/core': 10.1.8(@types/node@22.15.30)
+      '@inquirer/type': 3.0.5(@types/node@22.15.30)
       external-editor: 3.1.0
     optionalDependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
-  '@inquirer/expand@4.0.10(@types/node@22.15.18)':
+  '@inquirer/expand@4.0.10(@types/node@22.15.30)':
     dependencies:
-      '@inquirer/core': 10.1.8(@types/node@22.15.18)
-      '@inquirer/type': 3.0.5(@types/node@22.15.18)
+      '@inquirer/core': 10.1.8(@types/node@22.15.30)
+      '@inquirer/type': 3.0.5(@types/node@22.15.30)
       yoctocolors-cjs: 2.1.2
     optionalDependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
   '@inquirer/figures@1.0.11': {}
 
-  '@inquirer/input@4.1.7(@types/node@22.15.18)':
+  '@inquirer/input@4.1.7(@types/node@22.15.30)':
     dependencies:
-      '@inquirer/core': 10.1.8(@types/node@22.15.18)
-      '@inquirer/type': 3.0.5(@types/node@22.15.18)
+      '@inquirer/core': 10.1.8(@types/node@22.15.30)
+      '@inquirer/type': 3.0.5(@types/node@22.15.30)
     optionalDependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
-  '@inquirer/number@3.0.10(@types/node@22.15.18)':
+  '@inquirer/number@3.0.10(@types/node@22.15.30)':
     dependencies:
-      '@inquirer/core': 10.1.8(@types/node@22.15.18)
-      '@inquirer/type': 3.0.5(@types/node@22.15.18)
+      '@inquirer/core': 10.1.8(@types/node@22.15.30)
+      '@inquirer/type': 3.0.5(@types/node@22.15.30)
     optionalDependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
-  '@inquirer/password@4.0.10(@types/node@22.15.18)':
+  '@inquirer/password@4.0.10(@types/node@22.15.30)':
     dependencies:
-      '@inquirer/core': 10.1.8(@types/node@22.15.18)
-      '@inquirer/type': 3.0.5(@types/node@22.15.18)
+      '@inquirer/core': 10.1.8(@types/node@22.15.30)
+      '@inquirer/type': 3.0.5(@types/node@22.15.30)
       ansi-escapes: 4.3.2
     optionalDependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
-  '@inquirer/prompts@7.3.3(@types/node@22.15.18)':
+  '@inquirer/prompts@7.3.3(@types/node@22.15.30)':
     dependencies:
-      '@inquirer/checkbox': 4.1.3(@types/node@22.15.18)
-      '@inquirer/confirm': 5.1.7(@types/node@22.15.18)
-      '@inquirer/editor': 4.2.8(@types/node@22.15.18)
-      '@inquirer/expand': 4.0.10(@types/node@22.15.18)
-      '@inquirer/input': 4.1.7(@types/node@22.15.18)
-      '@inquirer/number': 3.0.10(@types/node@22.15.18)
-      '@inquirer/password': 4.0.10(@types/node@22.15.18)
-      '@inquirer/rawlist': 4.0.10(@types/node@22.15.18)
-      '@inquirer/search': 3.0.10(@types/node@22.15.18)
-      '@inquirer/select': 4.0.10(@types/node@22.15.18)
+      '@inquirer/checkbox': 4.1.3(@types/node@22.15.30)
+      '@inquirer/confirm': 5.1.7(@types/node@22.15.30)
+      '@inquirer/editor': 4.2.8(@types/node@22.15.30)
+      '@inquirer/expand': 4.0.10(@types/node@22.15.30)
+      '@inquirer/input': 4.1.7(@types/node@22.15.30)
+      '@inquirer/number': 3.0.10(@types/node@22.15.30)
+      '@inquirer/password': 4.0.10(@types/node@22.15.30)
+      '@inquirer/rawlist': 4.0.10(@types/node@22.15.30)
+      '@inquirer/search': 3.0.10(@types/node@22.15.30)
+      '@inquirer/select': 4.0.10(@types/node@22.15.30)
     optionalDependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
-  '@inquirer/rawlist@4.0.10(@types/node@22.15.18)':
+  '@inquirer/rawlist@4.0.10(@types/node@22.15.30)':
     dependencies:
-      '@inquirer/core': 10.1.8(@types/node@22.15.18)
-      '@inquirer/type': 3.0.5(@types/node@22.15.18)
+      '@inquirer/core': 10.1.8(@types/node@22.15.30)
+      '@inquirer/type': 3.0.5(@types/node@22.15.30)
       yoctocolors-cjs: 2.1.2
     optionalDependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
-  '@inquirer/search@3.0.10(@types/node@22.15.18)':
+  '@inquirer/search@3.0.10(@types/node@22.15.30)':
     dependencies:
-      '@inquirer/core': 10.1.8(@types/node@22.15.18)
+      '@inquirer/core': 10.1.8(@types/node@22.15.30)
       '@inquirer/figures': 1.0.11
-      '@inquirer/type': 3.0.5(@types/node@22.15.18)
+      '@inquirer/type': 3.0.5(@types/node@22.15.30)
       yoctocolors-cjs: 2.1.2
     optionalDependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
-  '@inquirer/select@4.0.10(@types/node@22.15.18)':
+  '@inquirer/select@4.0.10(@types/node@22.15.30)':
     dependencies:
-      '@inquirer/core': 10.1.8(@types/node@22.15.18)
+      '@inquirer/core': 10.1.8(@types/node@22.15.30)
       '@inquirer/figures': 1.0.11
-      '@inquirer/type': 3.0.5(@types/node@22.15.18)
+      '@inquirer/type': 3.0.5(@types/node@22.15.30)
       ansi-escapes: 4.3.2
       yoctocolors-cjs: 2.1.2
     optionalDependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
-  '@inquirer/type@3.0.5(@types/node@22.15.18)':
+  '@inquirer/type@3.0.5(@types/node@22.15.30)':
     optionalDependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -9959,7 +9953,7 @@ snapshots:
 
   '@logdna/tail-file@2.2.0': {}
 
-  '@malagu/cli-common@2.58.0(@swc/core@1.4.14)(@types/node@22.15.18)':
+  '@malagu/cli-common@2.58.0(@swc/core@1.4.14)(@types/node@22.15.30)':
     dependencies:
       '@malagu/frameworks': 2.58.0
       '@yarnpkg/lockfile': 1.1.0
@@ -9975,10 +9969,10 @@ snapshots:
       ora: 5.4.1
       prompts: 2.4.2
       randomatic: 3.1.1
-      semver: 7.7.1
+      semver: 7.7.2
       temp: 0.9.4
       traverse: 0.6.11
-      ts-node: 10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@4.5.5)
+      ts-node: 10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@4.5.5)
       typescript: 4.5.5
     transitivePeerDependencies:
       - '@swc/core'
@@ -9986,9 +9980,9 @@ snapshots:
       - '@types/node'
       - debug
 
-  '@malagu/cli-runtime@2.58.0(@swc/core@1.4.14)(@types/node@22.15.18)':
+  '@malagu/cli-runtime@2.58.0(@swc/core@1.4.14)(@types/node@22.15.30)':
     dependencies:
-      '@malagu/cli-common': 2.58.0(@swc/core@1.4.14)(@types/node@22.15.18)
+      '@malagu/cli-common': 2.58.0(@swc/core@1.4.14)(@types/node@22.15.30)
       '@malagu/frameworks': 2.58.0
       chalk: 4.1.2
       fs-extra: 11.3.0
@@ -10003,10 +9997,10 @@ snapshots:
       - '@types/node'
       - debug
 
-  '@malagu/cli@2.58.0(@swc/core@1.4.14)(@types/node@22.15.18)':
+  '@malagu/cli@2.58.0(@swc/core@1.4.14)(@types/node@22.15.30)':
     dependencies:
-      '@malagu/cli-common': 2.58.0(@swc/core@1.4.14)(@types/node@22.15.18)
-      '@malagu/cli-runtime': 2.58.0(@swc/core@1.4.14)(@types/node@22.15.18)
+      '@malagu/cli-common': 2.58.0(@swc/core@1.4.14)(@types/node@22.15.30)
+      '@malagu/cli-runtime': 2.58.0(@swc/core@1.4.14)(@types/node@22.15.30)
       '@malagu/frameworks': 2.58.0
       chalk: 4.1.2
       commander: 11.1.0
@@ -10205,7 +10199,7 @@ snapshots:
       - bluebird
       - supports-color
 
-  '@oclif/core@2.16.0(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3)':
+  '@oclif/core@2.16.0(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3)':
     dependencies:
       '@types/cli-progress': 3.11.6
       ansi-escapes: 4.3.2
@@ -10230,7 +10224,7 @@ snapshots:
       strip-ansi: 6.0.1
       supports-color: 8.1.1
       supports-hyperlinks: 2.3.0
-      ts-node: 10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3)
+      ts-node: 10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3)
       tslib: 2.8.1
       widest-line: 3.1.0
       wordwrap: 1.0.0
@@ -10241,9 +10235,9 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@oclif/plugin-help@5.2.20(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3)':
+  '@oclif/plugin-help@5.2.20(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3)':
     dependencies:
-      '@oclif/core': 2.16.0(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3)
+      '@oclif/core': 2.16.0(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -10495,16 +10489,16 @@ snapshots:
 
   '@protobufjs/utf8@1.1.0': {}
 
-  '@pulumi/alicloud@3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)':
+  '@pulumi/alicloud@3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)':
     dependencies:
-      '@pulumi/pulumi': 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+      '@pulumi/pulumi': 3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
     transitivePeerDependencies:
       - bluebird
       - supports-color
       - ts-node
       - typescript
 
-  '@pulumi/pulumi@3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)':
+  '@pulumi/pulumi@3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)':
     dependencies:
       '@grpc/grpc-js': 1.13.3
       '@logdna/tail-file': 2.2.0
@@ -10535,46 +10529,46 @@ snapshots:
       tmp: 0.2.3
       upath: 1.2.0
     optionalDependencies:
-      ts-node: 10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3)
+      ts-node: 10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3)
       typescript: 5.8.3
     transitivePeerDependencies:
       - bluebird
       - supports-color
 
-  '@pulumi/random@4.18.2(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)':
+  '@pulumi/random@4.18.2(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)':
     dependencies:
-      '@pulumi/pulumi': 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+      '@pulumi/pulumi': 3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
     transitivePeerDependencies:
       - bluebird
       - supports-color
       - ts-node
       - typescript
 
-  '@pulumi/tls@5.2.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)':
+  '@pulumi/tls@5.2.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)':
     dependencies:
-      '@pulumi/pulumi': 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+      '@pulumi/pulumi': 3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
     transitivePeerDependencies:
       - bluebird
       - supports-color
       - ts-node
       - typescript
 
-  '@pulumiverse/acme@0.10.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)':
+  '@pulumiverse/acme@0.10.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)':
     dependencies:
-      '@pulumi/pulumi': 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+      '@pulumi/pulumi': 3.175.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3))(typescript@5.8.3)
     transitivePeerDependencies:
       - bluebird
       - supports-color
       - ts-node
       - typescript
 
-  '@release-it/conventional-changelog@10.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(release-it@18.1.2(@types/node@22.15.18)(typescript@5.8.3))':
+  '@release-it/conventional-changelog@10.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(release-it@18.1.2(@types/node@22.15.30)(typescript@5.8.3))':
     dependencies:
       concat-stream: 2.0.0
       conventional-changelog: 6.0.0(conventional-commits-filter@5.0.0)
       conventional-recommended-bump: 10.0.0
       git-semver-tags: 8.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)
-      release-it: 18.1.2(@types/node@22.15.18)(typescript@5.8.3)
+      release-it: 18.1.2(@types/node@22.15.30)(typescript@5.8.3)
       semver: 7.7.1
     transitivePeerDependencies:
       - conventional-commits-filter
@@ -10762,24 +10756,24 @@ snapshots:
       '@tufjs/canonical-json': 2.0.0
       minimatch: 9.0.5
 
-  '@types/bun@1.2.13':
+  '@types/bun@1.2.15':
     dependencies:
-      bun-types: 1.2.13
+      bun-types: 1.2.15
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
       '@types/responselike': 1.0.3
 
   '@types/cli-progress@3.11.6':
     dependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
   '@types/conventional-commits-parser@5.0.1':
     dependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
   '@types/estree@1.0.6': {}
 
@@ -10791,7 +10785,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
   '@types/long@4.0.2': {}
 
@@ -10799,7 +10793,7 @@ snapshots:
 
   '@types/node@12.20.55': {}
 
-  '@types/node@22.15.18':
+  '@types/node@22.15.30':
     dependencies:
       undici-types: 6.21.0
 
@@ -10809,9 +10803,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 22.15.18
-
-  '@types/semver@7.5.8': {}
+      '@types/node': 22.15.30
 
   '@types/semver@7.7.0': {}
 
@@ -10890,11 +10882,11 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 6.21.0
       '@typescript-eslint/visitor-keys': 6.21.0
-      debug: 4.4.0(supports-color@8.1.1)
+      debug: 4.4.1
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.3
-      semver: 7.7.1
+      semver: 7.7.2
       ts-api-utils: 1.4.3(typescript@5.8.3)
     optionalDependencies:
       typescript: 5.8.3
@@ -10909,7 +10901,7 @@ snapshots:
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
-      semver: 7.7.1
+      semver: 7.7.2
       ts-api-utils: 2.0.1(typescript@5.8.3)
       typescript: 5.8.3
     transitivePeerDependencies:
@@ -10944,10 +10936,10 @@ snapshots:
 
   '@vue/shared@3.0.5': {}
 
-  '@wesvg/cli@0.2.0(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3)':
+  '@wesvg/cli@0.2.0(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3)':
     dependencies:
-      '@oclif/core': 2.16.0(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3)
-      '@oclif/plugin-help': 5.2.20(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3)
+      '@oclif/core': 2.16.0(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3)
+      '@oclif/plugin-help': 5.2.20(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3)
       axios: 1.8.2
       fs-extra: 11.3.0
       lodash: 4.17.21
@@ -10991,12 +10983,12 @@ snapshots:
       - typescript
       - vue-eslint-parser
 
-  '@xstools-dev/mix@0.13.2(@swc/core@1.4.14)(@types/node@22.15.18)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(encoding@0.1.13)(eslint@8.57.1)(jiti@2.4.2)(postcss@8.5.3)(prettier@3.5.3)(typescript@5.8.3)(yaml@2.7.0)':
+  '@xstools-dev/mix@0.13.2(@swc/core@1.4.14)(@types/node@22.15.30)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(encoding@0.1.13)(eslint@8.57.1)(jiti@2.4.2)(postcss@8.5.3)(prettier@3.5.3)(typescript@5.8.3)(yaml@2.7.0)':
     dependencies:
       '@xstools-dev/eslint-config': 0.13.0(prettier@3.5.3)(typescript@5.8.3)
       '@xstools-dev/prettier-config': 0.10.0(typescript@5.8.3)
-      '@xstools-dev/tools-mono': 0.13.0(@types/node@22.15.18)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(encoding@0.1.13)(typescript@5.8.3)
-      '@xstools-dev/tools-script': 0.17.0(@swc/core@1.4.14)(@types/node@22.15.18)(eslint@8.57.1)(jiti@2.4.2)(postcss@8.5.3)(typescript@5.8.3)(yaml@2.7.0)
+      '@xstools-dev/tools-mono': 0.13.0(@types/node@22.15.30)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(encoding@0.1.13)(typescript@5.8.3)
+      '@xstools-dev/tools-script': 0.17.0(@swc/core@1.4.14)(@types/node@22.15.30)(eslint@8.57.1)(jiti@2.4.2)(postcss@8.5.3)(typescript@5.8.3)(yaml@2.7.0)
       '@xstools-dev/typescript-config': 0.2.1
     transitivePeerDependencies:
       - '@ianvs/prettier-plugin-sort-imports'
@@ -11064,17 +11056,17 @@ snapshots:
       - typescript
       - vue-tsc
 
-  '@xstools-dev/tools-mono@0.13.0(@types/node@22.15.18)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(encoding@0.1.13)(typescript@5.8.3)':
+  '@xstools-dev/tools-mono@0.13.0(@types/node@22.15.30)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(encoding@0.1.13)(typescript@5.8.3)':
     dependencies:
       '@changesets/changelog-github': 0.5.1(encoding@0.1.13)
       '@changesets/cli': 2.28.1
-      '@commitlint/cli': 19.7.1(@types/node@22.15.18)(typescript@5.8.3)
+      '@commitlint/cli': 19.7.1(@types/node@22.15.30)(typescript@5.8.3)
       '@commitlint/config-conventional': 19.7.1
-      '@release-it/conventional-changelog': 10.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(release-it@18.1.2(@types/node@22.15.18)(typescript@5.8.3))
-      commitizen: 4.3.1(@types/node@22.15.18)(typescript@5.8.3)
-      cz-conventional-changelog: 3.3.0(@types/node@22.15.18)(typescript@5.8.3)
+      '@release-it/conventional-changelog': 10.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.1.0)(release-it@18.1.2(@types/node@22.15.30)(typescript@5.8.3))
+      commitizen: 4.3.1(@types/node@22.15.30)(typescript@5.8.3)
+      cz-conventional-changelog: 3.3.0(@types/node@22.15.30)(typescript@5.8.3)
       lint-staged: 15.4.3
-      release-it: 18.1.2(@types/node@22.15.18)(typescript@5.8.3)
+      release-it: 18.1.2(@types/node@22.15.30)(typescript@5.8.3)
       sherif: 1.4.0
       simple-git-hooks: 2.11.1
       turbo: 2.4.4
@@ -11086,11 +11078,11 @@ snapshots:
       - supports-color
       - typescript
 
-  '@xstools-dev/tools-script@0.17.0(@swc/core@1.4.14)(@types/node@22.15.18)(eslint@8.57.1)(jiti@2.4.2)(postcss@8.5.3)(typescript@5.8.3)(yaml@2.7.0)':
+  '@xstools-dev/tools-script@0.17.0(@swc/core@1.4.14)(@types/node@22.15.30)(eslint@8.57.1)(jiti@2.4.2)(postcss@8.5.3)(typescript@5.8.3)(yaml@2.7.0)':
     dependencies:
       '@dotenvx/dotenvx': 1.32.1
-      '@malagu/cli': 2.58.0(@swc/core@1.4.14)(@types/node@22.15.18)
-      '@wesvg/cli': 0.2.0(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3)
+      '@malagu/cli': 2.58.0(@swc/core@1.4.14)(@types/node@22.15.30)
+      '@wesvg/cli': 0.2.0(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3)
       babel-plugin-import: 1.13.8
       chokidar: 4.0.3
       del-cli: 6.0.0
@@ -11421,7 +11413,7 @@ snapshots:
       debug: 2.6.9
       json5: 0.5.1
       lodash: 4.17.21
-      minimatch: 3.0.4
+      minimatch: 3.1.2
       path-is-absolute: 1.0.1
       private: 0.1.8
       slash: 1.0.0
@@ -12075,9 +12067,9 @@ snapshots:
       base64-js: 1.5.1
       ieee754: 1.2.1
 
-  bun-types@1.2.13:
+  bun-types@1.2.15:
     dependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
 
   bundle-name@4.1.0:
     dependencies:
@@ -12121,7 +12113,7 @@ snapshots:
     dependencies:
       clone-response: 1.0.3
       get-stream: 5.2.0
-      http-cache-semantics: 4.1.1
+      http-cache-semantics: 4.2.0
       keyv: 3.1.0
       lowercase-keys: 2.0.0
       normalize-url: 4.5.1
@@ -12341,10 +12333,10 @@ snapshots:
 
   commander@9.5.0: {}
 
-  commitizen@4.3.1(@types/node@22.15.18)(typescript@5.8.3):
+  commitizen@4.3.1(@types/node@22.15.30)(typescript@5.8.3):
     dependencies:
       cachedir: 2.3.0
-      cz-conventional-changelog: 3.3.0(@types/node@22.15.18)(typescript@5.8.3)
+      cz-conventional-changelog: 3.3.0(@types/node@22.15.30)(typescript@5.8.3)
       dedent: 0.7.0
       detect-indent: 6.1.0
       find-node-modules: 2.1.3
@@ -12396,7 +12388,7 @@ snapshots:
       make-dir: 3.1.0
       onetime: 5.1.2
       pkg-up: 3.1.0
-      semver: 7.7.1
+      semver: 7.7.2
 
   config-chain@1.1.13:
     dependencies:
@@ -12479,7 +12471,7 @@ snapshots:
       conventional-commits-filter: 5.0.0
       handlebars: 4.7.8
       meow: 13.2.0
-      semver: 7.7.1
+      semver: 7.7.2
 
   conventional-changelog@6.0.0(conventional-commits-filter@5.0.0):
     dependencies:
@@ -12547,9 +12539,9 @@ snapshots:
       mime-types: 2.1.35
       request: 2.88.2
 
-  cosmiconfig-typescript-loader@6.1.0(@types/node@22.15.18)(cosmiconfig@9.0.0(typescript@5.8.3))(typescript@5.8.3):
+  cosmiconfig-typescript-loader@6.1.0(@types/node@22.15.30)(cosmiconfig@9.0.0(typescript@5.8.3))(typescript@5.8.3):
     dependencies:
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
       cosmiconfig: 9.0.0(typescript@5.8.3)
       jiti: 2.4.2
       typescript: 5.8.3
@@ -12653,16 +12645,16 @@ snapshots:
     dependencies:
       uniq: 1.0.1
 
-  cz-conventional-changelog@3.3.0(@types/node@22.15.18)(typescript@5.8.3):
+  cz-conventional-changelog@3.3.0(@types/node@22.15.30)(typescript@5.8.3):
     dependencies:
       chalk: 2.4.2
-      commitizen: 4.3.1(@types/node@22.15.18)(typescript@5.8.3)
+      commitizen: 4.3.1(@types/node@22.15.30)(typescript@5.8.3)
       conventional-commit-types: 3.0.0
       lodash.map: 4.6.0
       longest: 2.0.1
       word-wrap: 1.2.5
     optionalDependencies:
-      '@commitlint/load': 19.8.0(@types/node@22.15.18)(typescript@5.8.3)
+      '@commitlint/load': 19.8.0(@types/node@22.15.30)(typescript@5.8.3)
     transitivePeerDependencies:
       - '@types/node'
       - typescript
@@ -13433,6 +13425,10 @@ snapshots:
     optionalDependencies:
       picomatch: 3.0.1
 
+  fdir@6.4.4(picomatch@4.0.2):
+    optionalDependencies:
+      picomatch: 4.0.2
+
   figures@3.2.0:
     dependencies:
       escape-string-regexp: 1.0.5
@@ -13676,7 +13672,7 @@ snapshots:
     dependencies:
       basic-ftp: 5.0.5
       data-uri-to-buffer: 6.0.2
-      debug: 4.4.0(supports-color@8.1.1)
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -13741,7 +13737,7 @@ snapshots:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.0.4
+      minimatch: 3.1.2
       once: 1.4.0
       path-is-absolute: 1.0.1
 
@@ -13964,14 +13960,12 @@ snapshots:
 
   http-cache-semantics@3.8.1: {}
 
-  http-cache-semantics@4.1.1: {}
-
   http-cache-semantics@4.2.0: {}
 
   http-proxy-agent@7.0.2:
     dependencies:
       agent-base: 7.1.3
-      debug: 4.4.0(supports-color@8.1.1)
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -13989,7 +13983,7 @@ snapshots:
   https-proxy-agent@7.0.6:
     dependencies:
       agent-base: 7.1.3
-      debug: 4.4.0(supports-color@8.1.1)
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -14070,12 +14064,12 @@ snapshots:
 
   ini@4.1.3: {}
 
-  inquirer@12.3.0(@types/node@22.15.18):
+  inquirer@12.3.0(@types/node@22.15.30):
     dependencies:
-      '@inquirer/core': 10.1.8(@types/node@22.15.18)
-      '@inquirer/prompts': 7.3.3(@types/node@22.15.18)
-      '@inquirer/type': 3.0.5(@types/node@22.15.18)
-      '@types/node': 22.15.18
+      '@inquirer/core': 10.1.8(@types/node@22.15.30)
+      '@inquirer/prompts': 7.3.3(@types/node@22.15.30)
+      '@inquirer/type': 3.0.5(@types/node@22.15.30)
+      '@types/node': 22.15.30
       ansi-escapes: 4.3.2
       mute-stream: 2.0.0
       run-async: 3.0.0
@@ -15170,7 +15164,7 @@ snapshots:
   normalize-package-data@6.0.2:
     dependencies:
       hosted-git-info: 7.0.2
-      semver: 7.6.3
+      semver: 7.7.2
       validate-npm-package-license: 3.0.4
 
   normalize-path@3.0.0: {}
@@ -15448,7 +15442,7 @@ snapshots:
     dependencies:
       '@tootallnate/quickjs-emscripten': 0.23.0
       agent-base: 7.1.3
-      debug: 4.4.0(supports-color@8.1.1)
+      debug: 4.4.1
       get-uri: 6.0.4
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.6
@@ -15469,7 +15463,7 @@ snapshots:
       ky: 1.7.5
       registry-auth-token: 5.1.0
       registry-url: 6.0.1
-      semver: 7.6.3
+      semver: 7.7.2
 
   package-json@6.5.0:
     dependencies:
@@ -15919,7 +15913,7 @@ snapshots:
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
       '@types/long': 4.0.2
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
       long: 4.0.0
 
   protobufjs@7.5.2:
@@ -15934,7 +15928,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
       long: 5.3.2
 
   protocols@2.0.2: {}
@@ -16028,7 +16022,7 @@ snapshots:
 
   read-package-json@2.1.2:
     dependencies:
-      glob: 7.1.2
+      glob: 7.2.3
       json-parse-even-better-errors: 2.3.1
       normalize-package-data: 2.5.0
       npm-normalize-package-bin: 1.0.1
@@ -16190,7 +16184,7 @@ snapshots:
 
   relateurl@0.2.7: {}
 
-  release-it@18.1.2(@types/node@22.15.18)(typescript@5.8.3):
+  release-it@18.1.2(@types/node@22.15.30)(typescript@5.8.3):
     dependencies:
       '@iarna/toml': 2.2.5
       '@octokit/rest': 21.0.2
@@ -16201,7 +16195,7 @@ snapshots:
       execa: 9.5.2
       git-url-parse: 16.0.0
       globby: 14.0.2
-      inquirer: 12.3.0(@types/node@22.15.18)
+      inquirer: 12.3.0(@types/node@22.15.30)
       issue-parser: 7.0.1
       lodash: 4.17.21
       mime-types: 2.1.35
@@ -16574,7 +16568,7 @@ snapshots:
   socks-proxy-agent@8.0.5:
     dependencies:
       agent-base: 7.1.3
-      debug: 4.4.0(supports-color@8.1.1)
+      debug: 4.4.1
       socks: 2.8.3
     transitivePeerDependencies:
       - supports-color
@@ -16923,7 +16917,7 @@ snapshots:
 
   tinyglobby@0.2.12:
     dependencies:
-      fdir: 6.4.3(picomatch@4.0.2)
+      fdir: 6.4.4(picomatch@4.0.2)
       picomatch: 4.0.2
 
   tmp@0.0.33:
@@ -16983,14 +16977,14 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@4.5.5):
+  ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@4.5.5):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
       acorn: 8.14.1
       acorn-walk: 8.3.4
       arg: 4.1.3
@@ -17003,14 +16997,14 @@ snapshots:
     optionalDependencies:
       '@swc/core': 1.4.14
 
-  ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3):
+  ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.30)(typescript@5.8.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.15.18
+      '@types/node': 22.15.30
       acorn: 8.14.1
       acorn-walk: 8.3.4
       arg: 4.1.3
@@ -17252,7 +17246,7 @@ snapshots:
       is-yarn-global: 0.3.0
       latest-version: 5.1.0
       pupa: 2.1.1
-      semver: 7.7.1
+      semver: 7.7.2
       semver-diff: 3.1.1
       xdg-basedir: 4.0.0
 
@@ -17266,7 +17260,7 @@ snapshots:
       is-npm: 6.0.0
       latest-version: 9.0.0
       pupa: 3.1.0
-      semver: 7.6.3
+      semver: 7.7.2
       xdg-basedir: 5.1.0
 
   upper-case@1.1.3: {}
