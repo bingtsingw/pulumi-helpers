@@ -42,7 +42,7 @@
     "es-toolkit": "^1.37.2"
   },
   "devDependencies": {
-    "@pulumi/pulumi": "^3.170.0"
+    "@pulumi/pulumi": "^3.175.0"
   },
   "peerDependencies": {
     "@pulumi/pulumi": "*"
