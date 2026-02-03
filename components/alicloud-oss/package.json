@@ -39,7 +39,7 @@
     "@pulumi-helpers/component-alicloud-cdn": "workspace:^",
     "@pulumi-helpers/component-alicloud-ram-user": "workspace:^",
     "@pulumi-helpers/component-random-suffix": "workspace:^",
-    "@pulumi/alicloud": "^3.78.0"
+    "@pulumi/alicloud": "^3.94.0"
   },
   "devDependencies": {
     "@pulumi/pulumi": "^3.170.0"

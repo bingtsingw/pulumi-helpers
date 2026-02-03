@@ -38,8 +38,8 @@
   "dependencies": {
     "@pulumi-helpers/component-random-password": "workspace:^",
     "@pulumi-helpers/component-random-suffix": "workspace:^",
-    "@pulumi/alicloud": "^3.78.0",
-    "es-toolkit": "^1.37.2"
+    "@pulumi/alicloud": "^3.94.0",
+    "es-toolkit": "^1.44.0"
   },
   "devDependencies": {
     "@pulumi/pulumi": "^3.170.0"

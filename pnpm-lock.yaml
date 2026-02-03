@@ -24,11 +24,11 @@ importers:
   components/acme-cert:
     dependencies:
       '@pulumi/tls':
-        specifier: ^5.2.0
-        version: 5.2.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^5.3.0
+        version: 5.3.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
       '@pulumiverse/acme':
-        specifier: ^0.10.0
-        version: 0.10.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^0.14.0
+        version: 0.14.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
         specifier: ^3.170.0
@@ -37,8 +37,8 @@ importers:
   components/alicloud-cdn:
     dependencies:
       '@pulumi/alicloud':
-        specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.94.0
+        version: 3.94.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
         specifier: ^3.170.0
@@ -56,8 +56,8 @@ importers:
         specifier: workspace:^
         version: link:../random-suffix
       '@pulumi/alicloud':
-        specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.94.0
+        version: 3.94.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
         specifier: ^3.170.0
@@ -69,8 +69,8 @@ importers:
         specifier: workspace:^
         version: link:../random-suffix
       '@pulumi/alicloud':
-        specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.94.0
+        version: 3.94.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
         specifier: ^3.170.0
@@ -88,8 +88,8 @@ importers:
         specifier: workspace:^
         version: link:../random-suffix
       '@pulumi/alicloud':
-        specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.94.0
+        version: 3.94.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
         specifier: ^3.170.0
@@ -101,8 +101,8 @@ importers:
         specifier: workspace:^
         version: link:../random-suffix
       '@pulumi/alicloud':
-        specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.94.0
+        version: 3.94.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
         specifier: ^3.170.0
@@ -117,11 +117,11 @@ importers:
         specifier: workspace:^
         version: link:../random-suffix
       '@pulumi/alicloud':
-        specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.94.0
+        version: 3.94.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
       es-toolkit:
-        specifier: ^1.37.2
-        version: 1.37.2
+        specifier: ^1.44.0
+        version: 1.44.0
     devDependencies:
       '@pulumi/pulumi':
         specifier: ^3.170.0
@@ -133,8 +133,8 @@ importers:
         specifier: workspace:^
         version: link:../alicloud-rds-account
       '@pulumi/alicloud':
-        specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.94.0
+        version: 3.94.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
         specifier: ^3.170.0
@@ -143,8 +143,8 @@ importers:
   components/random-password:
     dependencies:
       '@pulumi/random':
-        specifier: ^4.18.2
-        version: 4.18.2(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^4.19.1
+        version: 4.19.1(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
         specifier: ^3.170.0
@@ -153,8 +153,8 @@ importers:
   components/random-suffix:
     dependencies:
       '@pulumi/random':
-        specifier: ^4.18.2
-        version: 4.18.2(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^4.19.1
+        version: 4.19.1(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     devDependencies:
       '@pulumi/pulumi':
         specifier: ^3.170.0
@@ -191,7 +191,7 @@ importers:
         version: link:../components/random-suffix
       '@pulumi/alicloud':
         specifier: ^3.78.0
-        version: 3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
+        version: 3.94.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
       '@pulumi/pulumi':
         specifier: ^3.170.0
         version: 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
@@ -2066,8 +2066,8 @@ packages:
   '@protobufjs/utf8@1.1.0':
     resolution: {integrity: sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==}
 
-  '@pulumi/alicloud@3.78.0':
-    resolution: {integrity: sha512-nHL710haP5POFJgMJ6fQwF+P937+g4jibb35jQOdWXg5NWB4QhHl6ubokLVwQK3CgW4iUQxifH9wnrCBRuN1oQ==}
+  '@pulumi/alicloud@3.94.0':
+    resolution: {integrity: sha512-QH6YDx9XOL+ahWsbfXPqLO771gAw0d3lPux1XsU9+qS9CWQVFjOcJ3cy52I0I33EvH4y0tOnAtxMxsl2BC1ZHA==}
 
   '@pulumi/pulumi@3.170.0':
     resolution: {integrity: sha512-r39S0mdbEs3vyONZ/V4mWN1ThF4zSGXno6gkx4B7+QygtW5D1hnqxllQ8rp3vZ5sCqFACvMP8GV2NLtAsvGmqg==}
@@ -2081,14 +2081,14 @@ packages:
       typescript:
         optional: true
 
-  '@pulumi/random@4.18.2':
-    resolution: {integrity: sha512-jC0HfgkFKwgUGmocM7Tw6UyOrpLFXGO8kYfV6f5Q9R/yziaVxEVPQ0Uup2HfosDh926EZHJrt2EUIJHWCyOvFA==}
+  '@pulumi/random@4.19.1':
+    resolution: {integrity: sha512-gDotQyxtl+pcJb4oaGfbi6PsK8OtzjBmF1D8PYLvr13kCup98KTIIv/8wF2xbgbFf7ljJn3EblADxZ0u8AC/Dg==}
 
-  '@pulumi/tls@5.2.0':
-    resolution: {integrity: sha512-wnhjCa3pz0eEv1DS5msN7yo5Ew1HrsbkMVZEiGve8fApIPKEIzfWnK11NlLlJyJNn2ffTuGao6hbAD4RKPiuuA==}
+  '@pulumi/tls@5.3.0':
+    resolution: {integrity: sha512-yCij6Frm8V/Tsd6oQi15bKN3IhABazNcAmbMBJAxDezOV7Uv/Sc6BhEe+ncJRf00OYGmZXb3K6NyKTxbf6A+fg==}
 
-  '@pulumiverse/acme@0.10.0':
-    resolution: {integrity: sha512-GKtd3b9CzpB8fAi3ZqLXO4OloP0xZdDCJ2eT6Bu0qIj4F8H81YTfISsSTfNlwVc2PQYp8RdnAi4ULEek8AwnBg==}
+  '@pulumiverse/acme@0.14.0':
+    resolution: {integrity: sha512-vTI3kzVvC8Y767tSBJLKSu6JDNRnw5NHJigGEk34eytcguDXNfjkvzrC3i6uQS+rt/y7sAwgzkU1372/HuLaOg==}
 
   '@release-it/conventional-changelog@10.0.0':
     resolution: {integrity: sha512-49qf9phGmPUIGpY2kwfgehs9en1znbPv2zdNn1WMLAH9DtHUh4m6KNSB+mLFGAMUhv24JhsA8ruYRYgluc2UJw==}
@@ -3975,8 +3975,8 @@ packages:
     resolution: {integrity: sha512-w+5mJ3GuFL+NjVtJlvydShqE1eN3h3PbI7/5LAsYJP/2qtuMXjfL2LpHSRqo4b4eSF5K/DH1JXKUAHSB2UW50g==}
     engines: {node: '>= 0.4'}
 
-  es-toolkit@1.37.2:
-    resolution: {integrity: sha512-ADDfk+pPFF0ofMpRAIc6on01p8heiuwuuJsYLzTP4UOjxVK9QsE2+0D1Q4J/zX2XBo6ac+27H5++YBIwmGAX/g==}
+  es-toolkit@1.44.0:
+    resolution: {integrity: sha512-6penXeZalaV88MM3cGkFZZfOoLGWshWWfdy0tWw/RlVVyhvMaWSBTOvXNeiW3e5FwdS5ePW0LGEu17zT139ktg==}
 
   esbuild@0.25.1:
     resolution: {integrity: sha512-BGO5LtrGC7vxnqucAe/rmvKdJllfGaYWdyABvyMoXQlfYMb2bbRuReWR5tEGE//4LcNJj9XrkovTqNYRFZHAMQ==}
@@ -6240,6 +6240,7 @@ packages:
   phin@3.7.1:
     resolution: {integrity: sha512-GEazpTWwTZaEQ9RhL7Nyz0WwqilbqgLahDM3D0hxWwmVDI52nXEybHqiN6/elwpkJBhcuj+WbBu+QfT0uhPGfQ==}
     engines: {node: '>= 8'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
@@ -7252,6 +7253,7 @@ packages:
   source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
 
   spawndamnit@3.0.1:
     resolution: {integrity: sha512-MmnduQUuHCoFckZoWnXsTg7JaiLBJrKFj9UI2MbRPGaJeVpsLcVBu6P/IGZovziM/YBsellCmsprgNA+w0CzVg==}
@@ -7463,6 +7465,7 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exhorbitant rates) by contacting i@izs.me
 
   temp@0.9.4:
     resolution: {integrity: sha512-yYrrsWnrXMcdsnu/7YMYAofM1ktpL5By7vZhf15CrXijWWrEYZks5AXBudalfSWJLlnen/QUJUB5aoB0kqZUGA==}
@@ -10495,7 +10498,7 @@ snapshots:
 
   '@protobufjs/utf8@1.1.0': {}
 
-  '@pulumi/alicloud@3.78.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)':
+  '@pulumi/alicloud@3.94.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)':
     dependencies:
       '@pulumi/pulumi': 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     transitivePeerDependencies:
@@ -10541,7 +10544,7 @@ snapshots:
       - bluebird
       - supports-color
 
-  '@pulumi/random@4.18.2(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)':
+  '@pulumi/random@4.19.1(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)':
     dependencies:
       '@pulumi/pulumi': 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     transitivePeerDependencies:
@@ -10550,7 +10553,7 @@ snapshots:
       - ts-node
       - typescript
 
-  '@pulumi/tls@5.2.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)':
+  '@pulumi/tls@5.3.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)':
     dependencies:
       '@pulumi/pulumi': 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     transitivePeerDependencies:
@@ -10559,7 +10562,7 @@ snapshots:
       - ts-node
       - typescript
 
-  '@pulumiverse/acme@0.10.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)':
+  '@pulumiverse/acme@0.14.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)':
     dependencies:
       '@pulumi/pulumi': 3.170.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@22.15.18)(typescript@5.8.3))(typescript@5.8.3)
     transitivePeerDependencies:
@@ -13074,7 +13077,7 @@ snapshots:
       is-date-object: 1.1.0
       is-symbol: 1.1.1
 
-  es-toolkit@1.37.2: {}
+  es-toolkit@1.44.0: {}
 
   esbuild@0.25.1:
     optionalDependencies:
