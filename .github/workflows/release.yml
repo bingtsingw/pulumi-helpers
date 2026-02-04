@@ -1,5 +1,11 @@
 name: Release
 
+permissions:
+  contents: write # to create release (changesets/action)
+  issues: write # to post issue comments (changesets/action)
+  pull-requests: write # to create pull request (changesets/action)
+  id-token: write # to use OpenID Connect token for provenance (changesets/action)
+
 on:
   push:
     branches:
@@ -13,8 +19,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
-
-      - uses: bingtsingw/composite-actions/pnpm-install@v1
+      - uses: bingtsingw/composite-actions/pnpm-install@v2
 
       - uses: changesets/action@v1
         with:
@@ -23,4 +28,5 @@ jobs:
           commit: 'chore: version packages'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_CONFIG_PROVENANCE: true
+          npm_config_registry: https://registry.npmjs.org
