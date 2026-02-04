@@ -1,5 +1,11 @@
 # @pulumi-helpers/component-alicloud-cdn
 
+## 0.2.3
+
+### Patch Changes
+
+- [`9d23cfa`](https://github.com/bingtsingw/pulumi-helpers/commit/9d23cfa26012627df87713ee32e72652da35c2ba) Thanks [@bingtsingw](https://github.com/bingtsingw)! - upgrade deps
+
 ## 0.2.2
 
 ### Patch Changes

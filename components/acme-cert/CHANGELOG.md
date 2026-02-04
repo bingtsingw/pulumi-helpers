@@ -1,5 +1,11 @@
 # @pulumi-helpers/component-acme-cert
 
+## 0.4.3
+
+### Patch Changes
+
+- [`9d23cfa`](https://github.com/bingtsingw/pulumi-helpers/commit/9d23cfa26012627df87713ee32e72652da35c2ba) Thanks [@bingtsingw](https://github.com/bingtsingw)! - upgrade deps
+
 ## 0.4.2
 
 ### Patch Changes

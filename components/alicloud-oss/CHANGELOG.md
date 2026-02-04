@@ -1,5 +1,16 @@
 # @pulumi-helpers/component-alicloud-oss
 
+## 0.2.6
+
+### Patch Changes
+
+- [`9d23cfa`](https://github.com/bingtsingw/pulumi-helpers/commit/9d23cfa26012627df87713ee32e72652da35c2ba) Thanks [@bingtsingw](https://github.com/bingtsingw)! - upgrade deps
+
+- Updated dependencies [[`9d23cfa`](https://github.com/bingtsingw/pulumi-helpers/commit/9d23cfa26012627df87713ee32e72652da35c2ba)]:
+  - @pulumi-helpers/component-alicloud-ram-user@0.1.3
+  - @pulumi-helpers/component-random-suffix@0.3.3
+  - @pulumi-helpers/component-alicloud-cdn@0.2.3
+
 ## 0.2.5
 
 ### Patch Changes
