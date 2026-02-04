@@ -122,7 +122,7 @@ export class AlicloudFc3Component extends pulumi.ComponentResource {
                 Effect: 'Allow',
               },
               {
-                Action: ['fc:PublishFunctionVersion'],
+                Action: ['fc:ListFunctionVersions', 'fc:PublishFunctionVersion'],
                 Resource: [`acs:fc:*:*:functions/${funcName}/versions/*`],
                 Effect: 'Allow',
               },
