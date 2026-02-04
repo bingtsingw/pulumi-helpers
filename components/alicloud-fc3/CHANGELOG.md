@@ -1,5 +1,18 @@
 # @pulumi-helpers/component-alicloud-fc3
 
+## 0.2.3
+
+### Patch Changes
+
+- [`9d23cfa`](https://github.com/bingtsingw/pulumi-helpers/commit/9d23cfa26012627df87713ee32e72652da35c2ba) Thanks [@bingtsingw](https://github.com/bingtsingw)! - update ram user policy
+
+- [`9d23cfa`](https://github.com/bingtsingw/pulumi-helpers/commit/9d23cfa26012627df87713ee32e72652da35c2ba) Thanks [@bingtsingw](https://github.com/bingtsingw)! - upgrade deps
+
+- Updated dependencies [[`9d23cfa`](https://github.com/bingtsingw/pulumi-helpers/commit/9d23cfa26012627df87713ee32e72652da35c2ba)]:
+  - @pulumi-helpers/component-alicloud-ram-user@0.1.3
+  - @pulumi-helpers/component-random-suffix@0.3.3
+  - @pulumi-helpers/component-alicloud-log@0.1.3
+
 ## 0.2.2
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@pulumi-helpers/component-alicloud-oss",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "keywords": [
     "pulumi",
     "pulumi-component",

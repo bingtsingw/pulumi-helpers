@@ -1,6 +1,6 @@
 {
   "name": "@pulumi-helpers/component-random-suffix",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "keywords": [
     "pulumi",
     "pulumi-component",

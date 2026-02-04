@@ -1,5 +1,14 @@
 # @pulumi-helpers/component-alicloud-rds-db
 
+## 0.1.2
+
+### Patch Changes
+
+- [`9d23cfa`](https://github.com/bingtsingw/pulumi-helpers/commit/9d23cfa26012627df87713ee32e72652da35c2ba) Thanks [@bingtsingw](https://github.com/bingtsingw)! - upgrade deps
+
+- Updated dependencies [[`9d23cfa`](https://github.com/bingtsingw/pulumi-helpers/commit/9d23cfa26012627df87713ee32e72652da35c2ba)]:
+  - @pulumi-helpers/component-alicloud-rds-account@0.1.2
+
 ## 0.1.1
 
 ### Patch Changes
