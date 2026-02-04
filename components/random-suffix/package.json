@@ -36,10 +36,10 @@
     }
   },
   "dependencies": {
-    "@pulumi/random": "^4.18.2"
+    "@pulumi/random": "^4.19.1"
   },
   "devDependencies": {
-    "@pulumi/pulumi": "^3.170.0"
+    "@pulumi/pulumi": "^3.218.0"
   },
   "peerDependencies": {
     "@pulumi/pulumi": "*"

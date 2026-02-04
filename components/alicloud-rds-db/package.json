@@ -37,10 +37,10 @@
   },
   "dependencies": {
     "@pulumi-helpers/component-alicloud-rds-account": "workspace:^",
-    "@pulumi/alicloud": "^3.78.0"
+    "@pulumi/alicloud": "^3.94.0"
   },
   "devDependencies": {
-    "@pulumi/pulumi": "^3.170.0"
+    "@pulumi/pulumi": "^3.218.0"
   },
   "peerDependencies": {
     "@pulumi/pulumi": "*"
