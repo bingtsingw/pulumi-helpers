@@ -40,7 +40,7 @@
     "@pulumi/alicloud": "^3.94.0"
   },
   "devDependencies": {
-    "@pulumi/pulumi": "^3.218.0"
+    "@pulumi/pulumi": "^3.219.0"
   },
   "peerDependencies": {
     "@pulumi/pulumi": "*"
