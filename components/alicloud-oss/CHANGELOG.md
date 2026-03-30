@@ -1,5 +1,11 @@
 # @pulumi-helpers/component-alicloud-oss
 
+## 0.2.7
+
+### Patch Changes
+
+- [`f5d1b28`](https://github.com/bingtsingw/pulumi-helpers/commit/f5d1b283191580ca65132dfeaae8b643fa08c177) Thanks [@bingtsingw](https://github.com/bingtsingw)! - blockPublicAccess
+
 ## 0.2.6
 
 ### Patch Changes
