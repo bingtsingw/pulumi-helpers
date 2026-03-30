@@ -88,6 +88,8 @@ export class AlicloudOssComponent extends pulumi.ComponentResource {
 
     const oss = new alicloud.oss.Bucket(this.name, bucketArgs, { parent: this });
 
+    new alicloud.oss.BucketPublicAccessBlock(this.name, { bucket: oss.id, blockPublicAccess: false }, { parent: this });
+
     new alicloud.oss.BucketAcl(this.name, { bucket: oss.id, acl }, { parent: this });
 
     this.bucket = oss.id;
