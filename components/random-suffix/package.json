@@ -37,7 +37,7 @@
     }
   },
   "dependencies": {
-    "@pulumi/random": "^4.19.1"
+    "@pulumi/random": "^4.19.2"
   },
   "devDependencies": {
     "@pulumi/pulumi": "^3.218.0"
