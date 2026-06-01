@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@pulumi-helpers/component-alicloud-rds-account": "workspace:^",
+    "@pulumi-helpers/component-random-suffix": "workspace:^",
     "@pulumi/alicloud": "^3.94.0"
   },
   "devDependencies": {

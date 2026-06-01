@@ -132,6 +132,9 @@ importers:
       '@pulumi-helpers/component-alicloud-rds-account':
         specifier: workspace:^
         version: link:../alicloud-rds-account
+      '@pulumi-helpers/component-random-suffix':
+        specifier: workspace:^
+        version: link:../random-suffix
       '@pulumi/alicloud':
         specifier: ^3.94.0
         version: 3.94.0(ts-node@10.9.2(@swc/core@1.4.14)(@types/node@24.10.10)(typescript@5.8.3))(typescript@5.8.3)

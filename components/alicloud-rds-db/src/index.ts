@@ -1,9 +1,11 @@
 import { AlicloudRdsAccountComponent } from '@pulumi-helpers/component-alicloud-rds-account';
+import { RandomSuffixComponent } from '@pulumi-helpers/component-random-suffix';
 import * as alicloud from '@pulumi/alicloud';
 import * as pulumi from '@pulumi/pulumi';
 
 interface Props {
   instanceId: pulumi.Input<string>;
+  handleNameSuffix?: boolean; // 兼容处理 v1.267.0
 }
 
 export class AlicloudRdsDbComponent extends pulumi.ComponentResource {
@@ -18,9 +20,15 @@ export class AlicloudRdsDbComponent extends pulumi.ComponentResource {
   ) {
     super('pkg:index:AlicloudRdsDbComponent', name, {}, opts);
 
+    let suffix: RandomSuffixComponent;
+    if (this.props.handleNameSuffix) {
+      suffix = new RandomSuffixComponent(this.name, {}, { parent: this });
+    }
+
     const db = new alicloud.rds.Database(
       this.name,
       {
+        dataBaseName: this.props.handleNameSuffix ? pulumi.interpolate`${this.name}-${suffix!.result}` : undefined,
         instanceId: this.props.instanceId,
         characterSet: 'UTF8',
       },
