@@ -1,5 +1,11 @@
 # @pulumi-helpers/component-alicloud-rds-db
 
+## 0.2.0
+
+### Minor Changes
+
+- [`5ced29d`](https://github.com/bingtsingw/pulumi-helpers/commit/5ced29de0140608ab4b0d9e07516a83e399dd0da) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 兼容 v1.267.0
+
 ## 0.1.2
 
 ### Patch Changes
