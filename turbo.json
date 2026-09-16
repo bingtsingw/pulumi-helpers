@@ -1,5 +1,6 @@
 {
   "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": ["tsconfig.json", "vite.config.ts"],
   "tasks": {
     "clean": {
       "cache": false
@@ -9,11 +10,8 @@
       "cache": false
     },
     "build": {
-      "dependsOn": ["^build"]
-    },
-    "lint:js": {},
-    "lint:js:fix": {},
-    "check-type": {},
-    "test": {}
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    }
   }
 }

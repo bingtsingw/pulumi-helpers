@@ -1,0 +1,8 @@
+{
+  "extends": "@xstools-dev/config-ts/v5/tsconfig.modern.json",
+  "compilerOptions": {
+    "paths": {
+      "@pulumi-helpers/component-*": ["./components/*/src/index.ts"]
+    }
+  }
+}

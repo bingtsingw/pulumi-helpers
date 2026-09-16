@@ -7,51 +7,25 @@
     "email": "bingtsingw@gmail.com",
     "url": "https://github.com/bingtsingw"
   },
+  "type": "module",
   "scripts": {
-    "build": "turbo run build",
-    "changeset-add": "changeset add",
-    "changeset-publish": "npm run check-publish && changeset publish",
-    "changeset-version": "changeset version",
+    "check": "vp check",
     "check-mono": "sherif",
-    "check-publish": "npm run build && npm run format && npm run lint:js && npm run check-type",
-    "check-type": "turbo run check-type",
-    "clean": "del **/dist **/.build **/.swc **/.malagu **/.turbo **/node_modules !node_modules **/.eslintcache",
-    "commit": "cz",
+    "check-publish": "pnpm run check && pnpm run test && pnpm run build",
+    "changeset-publish": "pnpm run check-publish && changeset publish",
+    "clean": "del **/dist **/.build **/.swc **/.turbo **/node_modules !node_modules",
+    "commit": "czg",
     "dev": "turbo run dev",
-    "format": "prettier . --check",
-    "format:fix": "prettier . --write",
-    "lint:js": "turbo run lint:js",
-    "lint:js:fix": "turbo run lint:js:fix",
-    "prepare": "simple-git-hooks",
-    "test": "turbo run test"
+    "build": "turbo run build",
+    "prepare": "vp hooks enable"
   },
-  "simple-git-hooks": {
-    "pre-commit": "npx lint-staged",
-    "commit-msg": "npx commitlint --edit $1"
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
-  "lint-staged": {
-    "**/*.{js,jsx,ts,tsx,html,css,md,json}": "prettier --check",
-    "**/*.{js,jsx,ts,tsx}": "eslint"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
-  "prettier": "@xstools-dev/prettier-config/base",
   "devDependencies": {
-    "@types/bun": "1.3.8",
-    "@types/node": "24.10.10",
-    "@xstools-dev/mix": "0.19.2",
-    "typescript": "5.8.3"
+    "@types/bun": "1.4.2",
+    "@types/node": "24.13.3",
+    "@xstools-dev/cli-toolkit": "0.3.0",
+    "@xstools-dev/config-ts": "0.2.0",
+    "typescript": "5.8.3",
+    "vite-plus": "0.3.2"
   },
-  "packageManager": "pnpm@10.33.0",
-  "pnpm": {
-    "neverBuiltDependencies": []
-  }
+  "packageManager": "pnpm@12.4.1"
 }
