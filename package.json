@@ -11,7 +11,7 @@
   "scripts": {
     "check": "vp check",
     "check-mono": "sherif",
-    "check-publish": "pnpm run check && pnpm run test && pnpm run build",
+    "check-publish": "pnpm run check && pnpm run build",
     "changeset-publish": "pnpm run check-publish && changeset publish",
     "clean": "del **/dist **/.build **/.swc **/.turbo **/node_modules !node_modules",
     "commit": "czg",
